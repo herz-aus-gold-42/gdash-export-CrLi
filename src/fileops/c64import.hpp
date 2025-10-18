@@ -56,6 +56,7 @@ public:
         GD_FORMAT_CRLI,         ///<  crazy light construction kit
         GD_FORMAT_CRDR_7,       ///<  crazy dream 7
         GD_FORMAT_FIRSTB,       ///<  first boulder
+        GD_FORMAT_BD1_PLUS,     ///<  BoulderDash+
 
         GD_FORMAT_UNKNOWN,      ///<  unknown format
     };
@@ -70,6 +71,7 @@ public:
         Deluxe_Caves_1,
         Deluxe_Caves_3,
         Masters_Boulder,
+        BoulderDashPlus
     };
 
     // set some cave parameters for original c64 engines

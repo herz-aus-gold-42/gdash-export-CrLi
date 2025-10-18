@@ -32,10 +32,47 @@
 #include "cave/elementproperties.hpp"
 #include "misc/autogfreeptr.hpp"
 #include "settings.hpp"
+#include "cave/caverendered.hpp"
+#include "fileops/md5.hpp"
 
 
 /// @file fileops/bdcffsave.cpp
 /// BDCFF save functions
+
+//#hag#// again checksum functions // adler // -->
+/**
+ * Checksum16 function
+ */
+static void chck16_init(guint &a, guint &b) {
+    a = 1;
+    b = 0;
+}
+static void chck16_add(guint data, guint &a, guint &b) {
+    a = (a + data) % 251; // the prime closest to (and less than) 256
+    b = (b + a) % 251;
+}
+static guint chck16_result(guint a, guint b) {
+    return b * 256 + a;
+}
+
+/**
+ * Checksum32 function
+ */
+static void chck32_init(guint &a, guint &b) {
+    a = 1;
+    b = 0;
+}
+static void chck32_add(guint data, guint &a, guint &b) {
+    a += data;
+    b += a;
+
+    a %= 65521;
+    b %= 65521;
+}
+static guint chck32_result(guint a, guint b) {
+    return (b << 16) + a;
+}
+//#hag#// again checksum functions // adler // <--
 
 
 /// write highscore to a bdcff file
@@ -233,8 +270,10 @@ static BdcffFile::CaveInfo caveset_save_cave_func(CaveStored &cave) {
     if (cave.unknown_tags != "")
         out.properties.push_back(cave.unknown_tags);
 
-    // is cave has a map
+    // if cave has a map
     if (!cave.map.empty()) {
+        // save mapCreatedOnSave
+        out.mapCreatedOnSave = cave.mapCreatedOnSave;
         // save map
         for (int y = 0; y < cave.h; ++y) {
             std::string line;
@@ -248,6 +287,57 @@ static BdcffFile::CaveInfo caveset_save_cave_func(CaveStored &cave) {
             out.map.push_back(std::move(line));
         }
     }
+
+    //#hag#// calc checksum // cs16, cs32, md5 // -->
+    if (!cave.map.empty()) {
+        // checksum init
+        guint chck16_a=1, chck16_b=0;
+        guint chck32_a=1, chck32_b=0;
+        chck16_init(chck16_a, chck16_b);
+        chck32_init(chck32_a, chck32_b);
+        MD5Context ctx;
+        md5Init(&ctx);
+        // save mapHex
+        for (int y = 0; y < cave.h; ++y) {
+            std::string line;
+            line.reserve(cave.w*5+6);  // FFFF
+            for (int x = 0; x < cave.w; ++x) {
+                char estr[10];
+                GdElementEnum e = cave.map(x,y);
+                chck16_add(e, chck16_a, chck16_b);
+                chck32_add(e, chck32_a, chck32_b);
+                sprintf(estr, "%4.4X ", e);
+                line += std::string(estr);
+            }
+            md5Update(&ctx, (uint8_t*)line.c_str(), line.length());
+            out.mapHex.push_back(std::move(line));
+        }
+        md5Finalize(&ctx);
+
+        // save mapChecksum
+        {
+            std::string line;
+            char estr[40];
+            // chck16
+            line = "chck16=";
+            sprintf(estr, "%u", chck16_result(chck16_a, chck16_b));
+            line += std::string(estr);
+            out.mapChecksum.push_back(std::move(line));
+            // chck32
+            line = "chck32=";
+            sprintf(estr, "%u", chck32_result(chck32_a, chck32_b));
+            line += std::string(estr);
+            out.mapChecksum.push_back(std::move(line));
+            // md5
+            line = "md5=";
+            for (int i=0; i<16; i++) {
+                sprintf(estr, "%2.2X", ctx.digest[i]);
+                line += std::string(estr);
+            }
+            out.mapChecksum.push_back(std::move(line));
+        }
+    }
+    //#hag#// calc checksum // cs16, cs32, md5 // <--
 
     // save drawing objects
     for (auto it = cave.objects.cbegin(); it != cave.objects.cend(); ++it) {
@@ -314,8 +404,36 @@ void save_to_bdcff(CaveSet &caveset, std::list<std::string> &out) {
     CharToElementTable ctet;            // create a new table
     for (unsigned int i = 0; i < O_MAX; i++)
         gd_element_properties[i].character_new = gd_element_properties[i].character;
+
+    bool levelWithRand = false;     //#hag#// determine if any cave with RandSeed exists
     for (unsigned int i = 0; i < caveset.caves.size(); i++) {
         CaveStored &cave = caveset.caves[i];
+
+        //#hag#// render map if none exists
+        {
+            int level = 0;
+            int seed  = 0;
+            if (cave.map.empty()) {
+                CaveRendered rendered(cave, level, seed);
+                cave.map = rendered.map;
+                cave.mapCreatedOnSave = true;
+            } else {
+                cave.mapCreatedOnSave = false;
+            }
+        }
+        //#hag#// determine if any cave with RandSeed exists
+        if (cave.random_fill_probability_1 != 0 ||
+            cave.random_fill_probability_2 != 0 ||
+            cave.random_fill_probability_3 != 0 ||
+            cave.random_fill_probability_4 != 0) {
+            levelWithRand = true;
+        }
+        int levrand = cave.level_rand[0];
+        for (int i=1; i<5; i++) {     // if all are the same, then all levels are the same (like one level)
+            if (cave.level_rand[i] != levrand) {
+                levelWithRand = true;
+            }
+        }
 
         // if they have a map (random elements+object based maps do not need characters)
         if (!cave.map.empty()) {
@@ -345,11 +463,17 @@ void save_to_bdcff(CaveSet &caveset, std::list<std::string> &out) {
     write_highscore_func(outfile.highscore, caveset.highscore);
     CaveSet default_caveset;  // temporary object holds default values
     save_own_properties(outfile.caveset_properties, caveset, default_caveset, 0);
+    //#hag#// if any cave with RandSeed exists, then set "Levels" to 5, otherwise 1
+    if (levelWithRand) {
     outfile.caveset_properties.push_back(BdcffFormat("Levels") << 5);
+    } else {
+        outfile.caveset_properties.push_back(BdcffFormat("Levels") << 1);
+    }
 
     // caves data
-    for (unsigned int i = 0; i < caveset.caves.size(); ++i)
+    for (unsigned int i = 0; i < caveset.caves.size(); ++i) {
         outfile.caves.push_back(caveset_save_cave_func(caveset.caves[i]));
+    }
 
     // now convert it to an output file.
     // move all strings created to the output list of strings in sections.
@@ -367,8 +491,17 @@ void save_to_bdcff(CaveSet &caveset, std::list<std::string> &out) {
         out.push_back("");
         out.push_back("[cave]");
         out.splice(out.end(), it->properties);  // cave properties
-        add_group("map", it->map, out);
+        if (!it->mapCreatedOnSave) {
+            add_group("map", it->map, out);                     //#hag#// write section map, before objects (normal)
+            add_group("maphex", it->mapHex, out);               //#hag#// write section maphex
+            add_group("mapchecksum", it->mapChecksum, out);     //#hag#// write section mapchecksum
+        }
         add_group("objects", it->objects, out);
+        if (it->mapCreatedOnSave) {
+            add_group("mapsave", it->map, out);                 //#hag#// write section mapsave, after objects (avoid confilicts)
+            add_group("maphex", it->mapHex, out);               //#hag#// write section maphex
+            add_group("mapchecksum", it->mapChecksum, out);     //#hag#// write section mapchecksum
+        }
         add_group("highscore", it->highscore, out);
         // each replay has its own group
         for (auto rit = it->replays.begin(); rit != it->replays.end(); ++rit)

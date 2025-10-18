@@ -441,7 +441,10 @@ static BdcffFile parse_bdcff_sections(const char *file_contents) {
         CaveDemo,       ///< old styled demo (replay), just movements, no random data & the like
         CaveHighScore,  ///< highscores for a cave
         CaveObjects,    ///< objects for a cave
-        CaveMap         ///< map-encoded cave
+        CaveMap,        ///< map-encoded cave   //#hag#// ReadState - section "map"             // the real existing map
+        CaveMapSave,    ///< mapSave            //#hag#// ReadState - section "mapsave"         // skipped here
+        CaveMapHex,     ///< mapHex             //#hag#// ReadState - section "maphex"          // skipped here
+        CaveMapChecksum ///< mapChecksum        //#hag#// ReadState - section "mapchecksum"     // skipped here
     } state;
 
     std::string line;
@@ -519,6 +522,37 @@ static BdcffFile parse_bdcff_sections(const char *file_contents) {
                 if (state != CaveMap)
                     gd_warning("[/map] tag without starting [map]");
                 state = Cave;
+
+            //#hag#// mapsave,maphex,mapchecksum section -->
+            } else if (gd_str_ascii_caseequal(line, "[mapsave]")) {
+                if (state != Cave)
+                    gd_warning("[mapsave] section only allowed inside [cave]");
+                else    /* else: do not enter mapsave reading when not in a cave! */
+                    state = CaveMapSave;
+            } else if (gd_str_ascii_caseequal(line, "[/mapsave]")) {
+                if (state != CaveMapSave)
+                    gd_warning("[/mapsave] tag without starting [mapsave]");
+                state = Cave;
+            } else if (gd_str_ascii_caseequal(line, "[maphex]")) {
+                if (state != Cave)
+                    gd_warning("[maphex] section only allowed inside [cave]");
+                else    /* else: do not enter maphex reading when not in a cave! */
+                    state = CaveMapHex;
+            } else if (gd_str_ascii_caseequal(line, "[/maphex]")) {
+                if (state != CaveMapHex)
+                    gd_warning("[/maphex] tag without starting [maphex]");
+                state = Cave;
+            } else if (gd_str_ascii_caseequal(line, "[mapchecksum]")) {
+                if (state != Cave)
+                    gd_warning("[mapxhecksum] section only allowed inside [cave]");
+                else    /* else: do not enter mapchecksum reading when not in a cave! */
+                    state = CaveMapChecksum;
+            } else if (gd_str_ascii_caseequal(line, "[/mapchecksum]")) {
+                if (state != CaveMapChecksum)
+                    gd_warning("[/mapchecksum] tag without starting [mapchecksum]");
+                state = Cave;
+            //#hag#// mapsave,maphex,mapchecksum section <--
+
             } else if (gd_str_ascii_caseequal(line, "[highscore]")) {
                 /* can be inside game or cave */
                 if (state == Game)
@@ -604,6 +638,11 @@ static BdcffFile parse_bdcff_sections(const char *file_contents) {
             file.caves.back().map.push_back(line);
             continue;
         }
+        /* //#hag#// second, check if we are at a "mapsave" line. nothing will be done! */
+        if (state == CaveMapSave) {
+            //#hag#// avoid any trouble, do nothing
+            continue;
+        }
 
         /* if not a map, we may strip spaces. do it here. */
         gd_strchomp(line);
@@ -655,6 +694,13 @@ static BdcffFile parse_bdcff_sections(const char *file_contents) {
             case CaveMap:
                 /* should already have handled it above */
                 g_assert_not_reached();
+                break;
+
+            case CaveMapSave:           //#hag#// section "mapsave" skipped here (handled it above)
+                break;
+            case CaveMapHex:            //#hag#// section "maphex" skipped here
+                break;
+            case CaveMapChecksum:       //#hag#// section "mapchecksum" skipped here
                 break;
         }
     }

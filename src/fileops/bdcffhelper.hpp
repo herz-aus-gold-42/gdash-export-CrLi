@@ -76,7 +76,10 @@ struct BdcffFile {
     struct CaveInfo {
         BdcffSection highscore;
         BdcffSection properties;
+        bool         mapCreatedOnSave = false;  //#hag#// map created on save
         BdcffSection map;
+        BdcffSection mapHex;        //#hag#// hex representation of map // element to 16bit hex (we have more than 255 elements
+        BdcffSection mapChecksum;   //#hag#// checksum of map           // cs16-adler, cs32-adler, md5
         BdcffSection objects;
         std::list<BdcffSection> replays;
         BdcffSection demo;

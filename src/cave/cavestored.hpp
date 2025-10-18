@@ -81,6 +81,7 @@ public:
     std::list<CaveReplay> replays;              ///< List of replays (demos) to this cave
 
     // Cave elements data - map + objects
+    bool mapCreatedOnSave = false;                ///#hag#// map created on save
     CaveMap<GdElementEnum> map;                   ///< cave map
     std::vector<Polymorphic<CaveObject>> objects;                    ///< Stores cave drawing objects
 
