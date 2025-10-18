@@ -127,6 +127,7 @@ am__gdash_SOURCES_DIST = misc/printf.cpp cave/colors.cpp \
 	cave/object/caveobjectrandomfill.cpp \
 	cave/object/caveobjectraster.cpp \
 	cave/object/caveobjectrectangle.cpp cave/caveset.cpp \
+	fileops/md5.cpp fileops/md5.cpp \
 	fileops/bdcffhelper.cpp fileops/bdcffload.cpp \
 	fileops/bdcffsave.cpp fileops/c64import.cpp \
 	fileops/brcimport.cpp fileops/binaryimport.cpp \
@@ -184,6 +185,7 @@ am__objects_1 = misc/gdash-printf.$(OBJEXT) \
 	cave/object/gdash-caveobjectraster.$(OBJEXT) \
 	cave/object/gdash-caveobjectrectangle.$(OBJEXT) \
 	cave/gdash-caveset.$(OBJEXT) \
+	fileops/gdash-md5.$(OBJEXT) \
 	fileops/gdash-bdcffhelper.$(OBJEXT) \
 	fileops/gdash-bdcffload.$(OBJEXT) \
 	fileops/gdash-bdcffsave.$(OBJEXT) \
@@ -306,6 +308,7 @@ am__depfiles_remade = ./$(DEPDIR)/gdash-main.Po \
 	editor/$(DEPDIR)/gdash-editorwidgets.Po \
 	editor/$(DEPDIR)/gdash-exporthtml.Po \
 	editor/$(DEPDIR)/gdash-exporttext.Po \
+	fileops/$(DEPDIR)/gdash-md5.Po \
 	fileops/$(DEPDIR)/gdash-bdcffhelper.Po \
 	fileops/$(DEPDIR)/gdash-bdcffload.Po \
 	fileops/$(DEPDIR)/gdash-bdcffsave.Po \
@@ -414,14 +417,14 @@ AUTOMAKE = automake-1.16
 AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -g -O2
+CFLAGS = -g -O0
 CPP = gcc -E
 CPPFLAGS = -I/ucrt64/include
 CSCOPE = cscope
 CTAGS = ctags
 CXX = g++
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -g -O2
+CXXFLAGS = -g -O0
 CYGPATH_W = cygpath -w
 DEFS = -DLOCALEDIR=\"$(localedir)\" -DPKGDATADIR=\"$(pkgdatadir)\" -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -581,6 +584,7 @@ baseheaders = \
 	cave/particle.hpp \
 	cave/helper/cavereplay.hpp \
 	cave/caveset.hpp \
+	fileops/md5.hpp \
 	fileops/bdcffhelper.hpp \
 	fileops/bdcffload.hpp \
 	fileops/bdcffsave.hpp \
@@ -653,6 +657,7 @@ basesources = \
 	cave/object/caveobjectraster.cpp \
 	cave/object/caveobjectrectangle.cpp \
 	cave/caveset.cpp \
+	fileops/md5.cpp \
 	fileops/bdcffhelper.cpp \
 	fileops/bdcffload.cpp \
 	fileops/bdcffsave.cpp \
@@ -949,6 +954,8 @@ fileops/$(am__dirstamp):
 fileops/$(DEPDIR)/$(am__dirstamp):
 	@$(MKDIR_P) fileops/$(DEPDIR)
 	@: > fileops/$(DEPDIR)/$(am__dirstamp)
+fileops/gdash-md5.$(OBJEXT): fileops/$(am__dirstamp) \
+	fileops/$(DEPDIR)/$(am__dirstamp)
 fileops/gdash-bdcffhelper.$(OBJEXT): fileops/$(am__dirstamp) \
 	fileops/$(DEPDIR)/$(am__dirstamp)
 fileops/gdash-bdcffload.$(OBJEXT): fileops/$(am__dirstamp) \
@@ -1185,6 +1192,7 @@ include editor/$(DEPDIR)/gdash-editorcellrenderer.Po # am--include-marker
 include editor/$(DEPDIR)/gdash-editorwidgets.Po # am--include-marker
 include editor/$(DEPDIR)/gdash-exporthtml.Po # am--include-marker
 include editor/$(DEPDIR)/gdash-exporttext.Po # am--include-marker
+include fileops/$(DEPDIR)/gdash-md5.Po # am--include-marker
 include fileops/$(DEPDIR)/gdash-bdcffhelper.Po # am--include-marker
 include fileops/$(DEPDIR)/gdash-bdcffload.Po # am--include-marker
 include fileops/$(DEPDIR)/gdash-bdcffsave.Po # am--include-marker
@@ -1671,6 +1679,20 @@ fileops/gdash-bdcffhelper.obj: fileops/bdcffhelper.cpp
 #	$(AM_V_CXX)source='fileops/bdcffhelper.cpp' object='fileops/gdash-bdcffhelper.obj' libtool=no \
 #	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
 #	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(gdash_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o fileops/gdash-bdcffhelper.obj `if test -f 'fileops/bdcffhelper.cpp'; then $(CYGPATH_W) 'fileops/bdcffhelper.cpp'; else $(CYGPATH_W) '$(srcdir)/fileops/bdcffhelper.cpp'; fi`
+
+fileops/gdash-md5.o: fileops/md5.cpp
+	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(gdash_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT fileops/gdash-md5.o -MD -MP -MF fileops/$(DEPDIR)/gdash-md5.Tpo -c -o fileops/gdash-md5.o `test -f 'fileops/md5.cpp' || echo '$(srcdir)/'`fileops/md5.cpp
+	$(AM_V_at)$(am__mv) fileops/$(DEPDIR)/gdash-md5.Tpo fileops/$(DEPDIR)/gdash-md5.Po
+#	$(AM_V_CXX)source='fileops/md5.cpp' object='fileops/gdash-md5.o' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(gdash_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o fileops/gdash-md5.o `test -f 'fileops/md5.cpp' || echo '$(srcdir)/'`fileops/md5.cpp
+
+fileops/gdash-md5.obj: fileops/md5.cpp
+	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(gdash_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT fileops/gdash-md5.obj -MD -MP -MF fileops/$(DEPDIR)/gdash-md5.Tpo -c -o fileops/gdash-md5.obj `if test -f 'fileops/md5.cpp'; then $(CYGPATH_W) 'fileops/md5.cpp'; else $(CYGPATH_W) '$(srcdir)/fileops/md5.cpp'; fi`
+	$(AM_V_at)$(am__mv) fileops/$(DEPDIR)/gdash-md5.Tpo fileops/$(DEPDIR)/gdash-md5.Po
+#	$(AM_V_CXX)source='fileops/md5.cpp' object='fileops/gdash-md5.obj' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(gdash_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o fileops/gdash-md5.obj `if test -f 'fileops/md5.cpp'; then $(CYGPATH_W) 'fileops/md5.cpp'; else $(CYGPATH_W) '$(srcdir)/fileops/md5.cpp'; fi`
 
 fileops/gdash-bdcffload.o: fileops/bdcffload.cpp
 	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(gdash_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT fileops/gdash-bdcffload.o -MD -MP -MF fileops/$(DEPDIR)/gdash-bdcffload.Tpo -c -o fileops/gdash-bdcffload.o `test -f 'fileops/bdcffload.cpp' || echo '$(srcdir)/'`fileops/bdcffload.cpp
@@ -2813,6 +2835,7 @@ distclean: distclean-am
 	-rm -f editor/$(DEPDIR)/gdash-editorwidgets.Po
 	-rm -f editor/$(DEPDIR)/gdash-exporthtml.Po
 	-rm -f editor/$(DEPDIR)/gdash-exporttext.Po
+	-rm -f fileops/$(DEPDIR)/gdash-md5.Po
 	-rm -f fileops/$(DEPDIR)/gdash-bdcffhelper.Po
 	-rm -f fileops/$(DEPDIR)/gdash-bdcffload.Po
 	-rm -f fileops/$(DEPDIR)/gdash-bdcffsave.Po
@@ -2955,6 +2978,7 @@ maintainer-clean: maintainer-clean-am
 	-rm -f editor/$(DEPDIR)/gdash-editorwidgets.Po
 	-rm -f editor/$(DEPDIR)/gdash-exporthtml.Po
 	-rm -f editor/$(DEPDIR)/gdash-exporttext.Po
+	-rm -f fileops/$(DEPDIR)/gdash-md5.Po
 	-rm -f fileops/$(DEPDIR)/gdash-bdcffhelper.Po
 	-rm -f fileops/$(DEPDIR)/gdash-bdcffload.Po
 	-rm -f fileops/$(DEPDIR)/gdash-bdcffsave.Po
