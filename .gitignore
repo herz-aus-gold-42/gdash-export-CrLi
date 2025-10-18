@@ -1,2 +1,76 @@
 autom4te.cache
 build/*
+
+# after ".configure"
+# Makefile
+caves/Makefile
+config.h
+config.log
+config.status
+docs/Makefile
+include/.deps/
+include/Makefile
+music/Makefile
+po/Makefile
+po/Makefile.in
+po/POTFILES
+shaders/Makefile
+sound/Makefile
+src/.deps/
+#src/Makefile
+src/cave/.deps/
+src/cave/helper/.deps/
+src/cave/object/.deps/
+src/editor/.deps/
+src/fileops/.deps/
+src/framework/.deps/
+src/gfx/.deps/
+src/gtk/.deps/
+src/input/.deps/
+src/misc/.deps/
+src/sdl/.deps/
+src/sound/.deps/
+stamp-h1
+# after "make" (untracked)
+configure~
+include/files2c-files2c.o
+include/files2c.exe
+src/**/*.o
+src/**/*.dirstamp
+#
+# after "make" (modified)  ### restore them
+Makefile.in
+caves/Makefile.in
+docs/Makefile.in
+include/Makefile.in
+music/Makefile.in
+shaders/Makefile.in
+sound/Makefile.in
+src/Makefile.in
+aclocal.m4
+configure
+include/gdash_icon_32.cpp
+include/gdash_icon_48.cpp
+include/gamebackground.cpp
+#
+# after "make" (modified)
+# git restore Makefile.in
+# git restore caves/Makefile.in
+# git restore docs/Makefile.in
+# git restore include/Makefile.in
+# git restore music/Makefile.in
+# git restore shaders/Makefile.in
+# git restore sound/Makefile.in
+# git restore src/Makefile.in
+# git restore aclocal.m4
+# git restore configure
+# git restore include/gdash_icon_32.cpp
+# git restore include/gdash_icon_48.cpp
+# git restore include/gamebackground.cpp
+#
+# edit with visual studio
+/.vs/gdash-export-Crli/
+/.vs/slnx.*
+/.vs/VSWorkspaceState.json
+# startup item
+# src/gdash.exe
