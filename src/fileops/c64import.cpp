@@ -69,6 +69,7 @@ char const *C64Import::gd_format_strings[GD_FORMAT_UNKNOWN + 1] = {
     "GDashCD7",     // GD_FORMAT_CRDR_7
     "GDash1ST",     // GD_FORMAT_FIRSTB
     "GDashB1+",     // GD_FORMAT_BD1_PLUS
+    "GDashB20",     // GD_FORMAT_BD2_CADUTA
     NULL
 };
 
@@ -861,7 +862,7 @@ int C64Import::cave_copy_from_bd1(CaveStored &cave, const guint8 *data, int rema
 
 /// Import bd2 cave data into our format.
 /// Very similar to the bd1 importer, only the encoding was different.
-int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int remaining_bytes, GdCavefileFormat format) {
+int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int remaining_bytes, GdCavefileFormat format, ImportHack hack) {
     g_assert(format == GD_FORMAT_BD2 || format == GD_FORMAT_BD2_ATARI);
 
     SetLoggerContextForFunction scf(cave.name);
@@ -1044,6 +1045,56 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
                 index += 3 + n;
             }
             break;
+            case 0x08 :
+                if(hack == BoulderDashCaduta) {
+                    int amount = data[index + 1];
+                    int x   = data[index + 3];
+                    int y   = data[index + 2];
+                    int lsb = data[index + 4];  // only for completeness
+                    int msb = data[index + 5];  // only for completeness
+                    // data start after 
+                    int didx = index + 6;
+                    int ppos = y * 40 + x;
+                    int x1   = 0;
+                    int y1   = 0;
+                    GdElementEnum element = O_UNKNOWN;
+
+                    for(int n=0; n<amount; n++) {
+                        guint8 obj = data[didx + n];
+
+                        element = bd1_import_byte(obj, didx + n);   // obj, index only for logging
+                        x1 = ppos % 40;
+                        y1 = ppos / 40;
+                        Coordinate p(x1, y1);
+                        cave.objects.push_back(CavePoint(p, element));
+                        ppos++;
+
+                        obj += 0x34;   // see code $AC0B .. $AC2C in dump // what the heck do this?
+
+                        element = bd1_import_byte(obj, didx + n);   // index only for logging
+                        x1 = ppos % 40;
+                        y1 = ppos / 40;
+                        Coordinate p(x1, y1);
+                        cave.objects.push_back(CavePoint(p, element));
+                        ppos++;
+                    }
+                    break;
+                } else {
+                    // fallthrough
+                }
+            case 0x14 :
+                if(hack == BoulderDashCaduta) {
+                    /* POINT */
+                    GdElementEnum element = bd1_import(data, index + 1);
+                    Coordinate p(data[index + 3], data[index + 2]);
+                    cave.objects.push_back(CavePoint(p, element));
+                    // if (x1>=cave.w || y1>=cave.h)
+                    //  gd_warning("invalid point coordinates %d,%d at byte %d", x1, y1, index);
+                    index += 4;
+                    break;
+                } else {
+                    // fallthrough
+                }
             default:
                 gd_warning("unknown bd2 extension no. %02x at byte %d", unsigned(data[index]), index);
                 index += 1; /* skip that byte */
@@ -1057,7 +1108,7 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
     index++;    /* animation byte - told the engine which objects to animate - to make game faster */
 
     /* the colors from the memory dump are appended here */
-    if (format == GD_FORMAT_BD2) {
+    if (format == GD_FORMAT_BD2) {  // hack == BoulderDashCaduta 
         /* c64 colors */
         cave.colorb = GdColor::from_c64(0); /* always black */
         cave.color0 = GdColor::from_c64(0); /* always black */
@@ -2074,6 +2125,10 @@ std::vector<CaveStored> C64Import::caves_import_from_buffer(const guint8 *buf, i
         format = GD_FORMAT_BD1;
         hack = BoulderDashPlus;
     }
+    if (format == GD_FORMAT_BD2_CADUTA) {
+        format = GD_FORMAT_BD2;
+        hack = BoulderDashCaduta;
+    }
 
     int bufp = 0;
     int cavenum = 0;
@@ -2089,7 +2144,8 @@ std::vector<CaveStored> C64Import::caves_import_from_buffer(const guint8 *buf, i
             case GD_FORMAT_BD1:             /* boulder dash 1 */
             case GD_FORMAT_BD1_ATARI:       /* boulder dash 1, atari version */
             case GD_FORMAT_BD2:             /* boulder dash 2 */
-            case GD_FORMAT_BD2_ATARI:       /* boulder dash 2 */
+            case GD_FORMAT_BD2_ATARI:       /* boulder dash 2, atari version */
+            case GD_FORMAT_BD2_CADUTA:      /* boulder dash 2, caduta massi  */
                 /* these are not in the data so we guess */
                 newcave.selectable = (cavenum < 16) && (cavenum % 4 == 0);
                 newcave.intermission = cavenum > 15;
@@ -2106,7 +2162,8 @@ std::vector<CaveStored> C64Import::caves_import_from_buffer(const guint8 *buf, i
                         break;
                     case GD_FORMAT_BD2:
                     case GD_FORMAT_BD2_ATARI:
-                        cavelength = cave_copy_from_bd2(newcave, buf + bufp, length - bufp, format);
+                    case GD_FORMAT_BD2_CADUTA:
+                        cavelength = cave_copy_from_bd2(newcave, buf + bufp, length - bufp, format, hack);
                         break;
                     default:
                         g_assert_not_reached();
