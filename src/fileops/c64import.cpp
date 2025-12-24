@@ -666,6 +666,7 @@ int C64Import::cave_copy_from_bd1(CaveStored &cave, const guint8 *data, int rema
         case Masters_Boulder:
         case Crazy_Dream_1:
         case BoulderDashPlus:
+        case BoulderDashCaduta:
         case None:                  /* avoid warning */
             /* original bd1 */
             break;
@@ -1050,8 +1051,8 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
                     int amount = data[index + 1];
                     int x   = data[index + 3];
                     int y   = data[index + 2];
-                    int lsb = data[index + 4];  // only for completeness
-                    int msb = data[index + 5];  // only for completeness
+                    // int lsb = data[index + 4];  // only for completeness
+                    // int msb = data[index + 5];  // only for completeness
                     // data start after 
                     int didx = index + 6;
                     int ppos = y * 40 + x;
@@ -1062,21 +1063,25 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
                     for(int n=0; n<amount; n++) {
                         guint8 obj = data[didx + n];
 
-                        element = bd1_import_byte(obj, didx + n);   // obj, index only for logging
-                        x1 = ppos % 40;
-                        y1 = ppos / 40;
-                        Coordinate p(x1, y1);
-                        cave.objects.push_back(CavePoint(p, element));
-                        ppos++;
+                        {
+                            element = bd1_import_byte(obj, didx + n);   // obj, index only for logging
+                            x1 = ppos % 40;
+                            y1 = ppos / 40;
+                            Coordinate p(x1, y1);
+                            cave.objects.push_back(CavePoint(p, element));
+                            ppos++;
+                        }
 
                         obj += 0x34;   // see code $AC0B .. $AC2C in dump // what the heck do this?
 
-                        element = bd1_import_byte(obj, didx + n);   // index only for logging
-                        x1 = ppos % 40;
-                        y1 = ppos / 40;
-                        Coordinate p(x1, y1);
-                        cave.objects.push_back(CavePoint(p, element));
-                        ppos++;
+                        {
+                            element = bd1_import_byte(obj, didx + n);   // index only for logging
+                            x1 = ppos % 40;
+                            y1 = ppos / 40;
+                            Coordinate p(x1, y1);
+                            cave.objects.push_back(CavePoint(p, element));
+                            ppos++;
+                        }
                     }
                     break;
                 } else {
