@@ -444,6 +444,13 @@ void save_to_bdcff(CaveSet &caveset, std::list<std::string> &out) {
                     if (gd_element_properties[e].character_new == 0) {
                         write_mapcodes = true;
                         gd_element_properties[e].character_new = ctet.find_place_for(e);
+                        if (gd_element_properties[e].character_new == 0) {  // no place free
+                            gd_element_properties[e].character_new = 0x20;  // space
+                            // print warning
+                            char msg[200];
+                            sprintf(msg, "-W- no place free for element: %d\n", (int)e);
+                            printf(msg);
+                        }
                     }
                 }
         }
