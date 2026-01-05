@@ -248,8 +248,10 @@ unsigned CharToElementTable::find_place_for(GdElementEnum e) {
         // if found a good empty char, break
         if (table[i] == O_UNKNOWN && strchr(not_allowed, i) == NULL)
             break;
-    if (i >= ArraySize)
-        throw std::runtime_error("no more characters");
+    if (i >= ArraySize) {
+        return 0;  // indicate the  "no more characters" error
+        // throw std::runtime_error("no more characters");
+    }
     table[i] = e;
     return i;
 }
