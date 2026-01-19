@@ -9,7 +9,7 @@ TitleScreen=iVBORw0KGgoAAAANSUhEUgAAAUAAAACwCAYAAAB+dbcHAAAABHNCSVQICAgIfAhkiAAA
 Levels=5
 
 [cave]
-Name=Cave A
+Name=A
 Description=Introducing
 Author=Alchemystics
 Date=2024-04-12
@@ -49,7 +49,7 @@ Point=38 1 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave B
+Name=B
 Description=Bigmouth
 Author=Alchemystics
 Date=2024-04-12
@@ -105,7 +105,7 @@ Line=26 12 21 10 DIRT
 [/cave]
 
 [cave]
-Name=Cave C
+Name=C
 Description=Acroyear2
 Author=Alchemystics
 Date=2024-07-24
@@ -159,7 +159,7 @@ Line=31 4 38 4 DIRT
 [/cave]
 
 [cave]
-Name=Cave D
+Name=D
 Description=Sanq
 Author=Alchemystics
 Date=2024-09-20
@@ -250,7 +250,7 @@ Point=0 1 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave E
+Name=E
 Description=With Teeth
 Author=Alchemystics
 Date=2024-09-24
@@ -326,7 +326,7 @@ Line=1 18 38 18 STEELWALL
 [/cave]
 
 [cave]
-Name=Cave F
+Name=F
 Description=Flow Coma
 Author=Alchemystics
 Date=2024-09-24
@@ -363,7 +363,7 @@ Point=1 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave G
+Name=G
 Description=Cups
 Author=Alchemystics
 Date=2024-09-24
@@ -434,7 +434,7 @@ Point=2 2 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave H
+Name=H
 Description=Plastered Cracks
 Author=Alchemystics
 Date=2024-09-24
@@ -562,7 +562,7 @@ Line=9 8 10 8 STEELWALL
 [/cave]
 
 [cave]
-Name=Cave I
+Name=I
 Description=Compression
 Author=Alchemystics
 Date=2024-09-24
@@ -599,7 +599,7 @@ Point=38 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave J
+Name=J
 Description=Stand Ready
 Author=Alchemystics
 Date=2024-09-24
@@ -646,7 +646,7 @@ Line=14 7 25 7 BOULDER
 [/cave]
 
 [cave]
-Name=Cave K
+Name=K
 Description=Claustrophobia
 Author=Alchemystics
 Date=2024-09-24
@@ -699,7 +699,7 @@ Point=39 16 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave L
+Name=L
 Description=Hellgenugzudunkel
 Author=Alchemystics
 Date=2024-09-24
@@ -767,7 +767,7 @@ Line=18 10 18 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave M
+Name=M
 Author=Alchemystics
 Date=2024-09-25
 Intermission=false
@@ -815,7 +815,7 @@ Point=38 1 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave N
+Name=N
 Description=Atomic Moog
 Author=Alchemystics
 Date=2024-09-25
@@ -859,7 +859,7 @@ Point=2 19 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave O
+Name=O
 Description=V-Proc
 Author=Alchemystics
 Date=2024-09-25
@@ -908,7 +908,7 @@ Point=38 5 INBOX
 [/cave]
 
 [cave]
-Name=Cave P
+Name=P
 Description=Dial.
 Author=Alchemystics
 Date=2024-09-25

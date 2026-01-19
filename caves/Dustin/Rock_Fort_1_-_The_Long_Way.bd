@@ -38,7 +38,7 @@ Point=19 4 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave A. Minefield
+Name=A. Minefield
 Author=Dustin Bachstein
 Date=2008-10-07
 Intermission=false
@@ -78,7 +78,7 @@ Point=21 11 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave B. Trap And Grab
+Name=B. Trap And Grab
 Author=Dustin Bachstein
 Date=2008-10-07
 Intermission=false
@@ -119,7 +119,7 @@ Rectangle=0 0 39 21 STEELWALL
 [/cave]
 
 [cave]
-Name=Cave C. Magic Maze
+Name=C. Magic Maze
 Author=Dustin Bachstein
 Date=2008-10-11
 Intermission=false
@@ -158,7 +158,7 @@ Rectangle=0 0 39 21 STEELWALL
 [/cave]
 
 [cave]
-Name=Cave D. Range
+Name=D. Range
 Author=Dustin Bachstein
 Date=2008-10-11
 Intermission=false
@@ -269,7 +269,7 @@ Point=10 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave E. Rockslide
+Name=E. Rockslide
 Author=Dustin Bachstein
 Date=2008-10-15
 Intermission=false
@@ -439,7 +439,7 @@ Point=11 1 DIAMOND
 [/cave]
 
 [cave]
-Name=Cave F. Exposure
+Name=F. Exposure
 Author=Dustin Bachstein
 Date=2008-10-16
 IntermissionProperties.instantlife=true
@@ -476,7 +476,7 @@ Point=38 1 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave G. Two Sources
+Name=G. Two Sources
 Author=Dustin Bachstein
 Date=2008-10-16
 Intermission=false
@@ -523,7 +523,7 @@ Raster=12 13 2 8 15 1 WALL
 [/cave]
 
 [cave]
-Name=Cave H. Cross
+Name=H. Cross
 Author=Dustin Bachstein
 Date=2008-10-19
 Intermission=false
@@ -602,7 +602,7 @@ Point=18 7 BOULDER
 [/cave]
 
 [cave]
-Name=Cave I. Giddiness
+Name=I. Giddiness
 Author=Dustin Bachstein
 Date=2008-10-19
 Intermission=false
@@ -702,7 +702,7 @@ Point=10 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave J. Deflection
+Name=J. Deflection
 Author=Dustin Bachstein
 Date=2008-10-19
 Intermission=false
@@ -751,7 +751,7 @@ FillRect=11 10 13 12 BUTTERFLYd OUTBOX
 [/cave]
 
 [cave]
-Name=Cave K. Modern Liberator
+Name=K. Modern Liberator
 Author=Dustin Bachstein
 Date=2008-10-19
 Intermission=false
@@ -805,7 +805,7 @@ Point=7 7 BOULDER
 [/cave]
 
 [cave]
-Name=Cave L. Breakout And Revisit
+Name=L. Breakout And Revisit
 Author=Dustin Bachstein
 Date=2008-10-19
 Intermission=false
@@ -911,7 +911,7 @@ Point=17 4 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave M. Chessboard
+Name=M. Chessboard
 Author=Dustin Bachstein
 Date=2008-10-19
 Intermission=false
@@ -970,7 +970,7 @@ Add=0 1 DIAMOND DIRT
 [/cave]
 
 [cave]
-Name=Cave N. Quick-Change Artist
+Name=N. Quick-Change Artist
 Author=Dustin Bachstein
 Date=2008-10-19
 Intermission=false
@@ -1017,7 +1017,7 @@ Point=11 9 DIAMOND
 [/cave]
 
 [cave]
-Name=Cave O. Timing
+Name=O. Timing
 Author=Dustin Bachstein
 Date=2008-10-19
 Intermission=false
@@ -1071,7 +1071,7 @@ Point=28 2 SPACE
 [/cave]
 
 [cave]
-Name=Cave P. Spinigma
+Name=P. Spinigma
 Author=Dustin Bachstein
 Date=2008-10-20
 Intermission=false

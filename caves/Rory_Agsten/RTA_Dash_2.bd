@@ -7,7 +7,7 @@ Remark=RTAD2: cave B [02] - slightly modified from No One's Boulder 5, cave H \n
 Levels=5
 
 [cave]
-Name=Cave 01 - Intro
+Name=01 - Intro
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -58,7 +58,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 02 - Concentricity
+Name=02 - Concentricity
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -109,7 +109,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 03 - Side Growth
+Name=03 - Side Growth
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -160,7 +160,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 04 - Patrol
+Name=04 - Patrol
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -262,7 +262,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 06 - Double timer
+Name=06 - Double timer
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -313,7 +313,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 07 - T'Storm
+Name=07 - T'Storm
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -364,7 +364,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 08 - Butterfly Boxes
+Name=08 - Butterfly Boxes
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -415,7 +415,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 09 - Tri-fold Board
+Name=09 - Tri-fold Board
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -517,7 +517,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 11 - Better and Worse
+Name=11 - Better and Worse
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -568,7 +568,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 12 - Irritation
+Name=12 - Irritation
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -619,7 +619,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 13 - Island
+Name=13 - Island
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -670,7 +670,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 14 - Synergy
+Name=14 - Synergy
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -772,7 +772,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 16 - Prison
+Name=16 - Prison
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -823,7 +823,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 17 - Earthquake
+Name=17 - Earthquake
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -874,7 +874,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 18 - The Divider
+Name=18 - The Divider
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -925,7 +925,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 19 - Narrow Tunnels
+Name=19 - Narrow Tunnels
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false

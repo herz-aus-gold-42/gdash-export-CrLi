@@ -6,7 +6,7 @@ Remark=If you are completely unfamiliar with the concept of Boulderdash Fan Game
 Levels=5
 
 [cave]
-Name=Cave 1 - Sift
+Name=1 - Sift
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -56,7 +56,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 2 - Nostalgia
+Name=2 - Nostalgia
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -106,7 +106,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 3 - Circles
+Name=3 - Circles
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -156,7 +156,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 4 - Be Careful
+Name=4 - Be Careful
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -206,7 +206,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 5 - Intermission 1
+Name=5 - Intermission 1
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -307,7 +307,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 7 - Hurry!
+Name=7 - Hurry!
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -357,7 +357,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 8 - Drop 'em
+Name=8 - Drop 'em
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -407,7 +407,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 9 - Drop Maze 1
+Name=9 - Drop Maze 1
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -457,7 +457,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 10 - Intermission 2
+Name=10 - Intermission 2
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -508,7 +508,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 11 - Dingy Dungeon
+Name=11 - Dingy Dungeon
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -558,7 +558,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 12 - Rooms
+Name=12 - Rooms
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -608,7 +608,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 13 - Let 'em Have It
+Name=13 - Let 'em Have It
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -658,7 +658,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 14 - Slime Run
+Name=14 - Slime Run
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -708,7 +708,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 15 - Intermission 3
+Name=15 - Intermission 3
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -759,7 +759,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 16 - Drop Maze 2
+Name=16 - Drop Maze 2
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -809,7 +809,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 17 - Concourse
+Name=17 - Concourse
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -859,7 +859,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 18 - Bricklayer's Nightmare
+Name=18 - Bricklayer's Nightmare
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -909,7 +909,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 19 - X Marks The Spot
+Name=19 - X Marks The Spot
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -959,7 +959,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 20 - Intermission 4
+Name=20 - Intermission 4
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -1010,7 +1010,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 21 - Abandoned Tomb
+Name=21 - Abandoned Tomb
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1060,7 +1060,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 22 - Run!
+Name=22 - Run!
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1110,7 +1110,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 23 - Antechamber
+Name=23 - Antechamber
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1160,7 +1160,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 24 - Invention
+Name=24 - Invention
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1210,7 +1210,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 25 - Intermission 5
+Name=25 - Intermission 5
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -1261,7 +1261,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 26 - Take Your Pick
+Name=26 - Take Your Pick
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1311,7 +1311,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 27 - The Perfect Mess
+Name=27 - The Perfect Mess
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1361,7 +1361,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 28 - Drop Maze 3
+Name=28 - Drop Maze 3
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1411,7 +1411,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 29 - Tubular
+Name=29 - Tubular
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1461,7 +1461,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 30 - Intermission 6
+Name=30 - Intermission 6
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -1512,7 +1512,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 31 - Segmented
+Name=31 - Segmented
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1562,7 +1562,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 32 - Drop Zone
+Name=32 - Drop Zone
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1612,7 +1612,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 33 - Mechanisms
+Name=33 - Mechanisms
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1662,7 +1662,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 34 - Snow Problem
+Name=34 - Snow Problem
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1712,7 +1712,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 35 - Intermission 7
+Name=35 - Intermission 7
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -1763,7 +1763,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 36 - Immurement Arcade
+Name=36 - Immurement Arcade
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1813,7 +1813,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 37 - Magic Slides
+Name=37 - Magic Slides
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1863,7 +1863,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 38 - Void
+Name=38 - Void
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1913,7 +1913,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 39 - Pits of Despair
+Name=39 - Pits of Despair
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -1963,7 +1963,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 40 - Intermission 8
+Name=40 - Intermission 8
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -2014,7 +2014,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 41 - Let It Grow
+Name=41 - Let It Grow
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -2064,7 +2064,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 42 - Multitask
+Name=42 - Multitask
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -2114,7 +2114,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 43 - Back And Fourth
+Name=43 - Back And Fourth
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -2164,7 +2164,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 44 - Peg Board's Revenge
+Name=44 - Peg Board's Revenge
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -2214,7 +2214,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 45 - Intermission 9
+Name=45 - Intermission 9
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -2265,7 +2265,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 46 - Bombastic
+Name=46 - Bombastic
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -2315,7 +2315,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 47 - Wipe Out!
+Name=47 - Wipe Out!
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false

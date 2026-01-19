@@ -7,7 +7,7 @@ Remark=RTAD7: cave E [06] - based on NES BD, world 5/cave 2\nRTAD7: cave I [11] 
 Levels=5
 
 [cave]
-Name=Cave 01 - Intro 7
+Name=01 - Intro 7
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -58,7 +58,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 02 - Diagonal Breaker
+Name=02 - Diagonal Breaker
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -109,7 +109,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 03 - Simplicity
+Name=03 - Simplicity
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -160,7 +160,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 04 - Running Between Floors
+Name=04 - Running Between Floors
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -211,7 +211,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 05 - Intermission 1
+Name=05 - Intermission 1
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -263,7 +263,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 06 - Bowling Alley
+Name=06 - Bowling Alley
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -314,7 +314,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 07 - Free the H
+Name=07 - Free the H
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -365,7 +365,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 08 - Getting Stuck Part 1
+Name=08 - Getting Stuck Part 1
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -416,7 +416,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 09 - Getting Stuck Part 2
+Name=09 - Getting Stuck Part 2
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -467,7 +467,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 10 - Intermission 2
+Name=10 - Intermission 2
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -519,7 +519,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 11 - From the Top
+Name=11 - From the Top
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -570,7 +570,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 12 - Power of 14
+Name=12 - Power of 14
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -621,7 +621,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 13 - Duck Down
+Name=13 - Duck Down
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -672,7 +672,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 14 - Gambling Life
+Name=14 - Gambling Life
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -723,7 +723,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 15 - Intermission 3
+Name=15 - Intermission 3
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true
@@ -775,7 +775,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 16 - Double Gates
+Name=16 - Double Gates
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -826,7 +826,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 17 - The Hidden Temple
+Name=17 - The Hidden Temple
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -877,7 +877,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 18 - Task Choice
+Name=18 - Task Choice
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -928,7 +928,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 19 - Loop City
+Name=19 - Loop City
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -979,7 +979,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 20 - Intermission 4
+Name=20 - Intermission 4
 Selectable=false
 Intermission=true
 IntermissionProperties.instantlife=true

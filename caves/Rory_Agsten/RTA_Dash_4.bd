@@ -7,7 +7,7 @@ Remark=RTAD4: cave N [17] - left-half idea from BD2, cave I \nRTAD4: cave P [19]
 Levels=5
 
 [cave]
-Name=Cave 01 - Intro
+Name=01 - Intro
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -58,7 +58,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 02 - Option
+Name=02 - Option
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -109,7 +109,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 03 - One by One
+Name=03 - One by One
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -160,7 +160,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 04 - Hourglass 2
+Name=04 - Hourglass 2
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -262,7 +262,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 06 - Work Quick
+Name=06 - Work Quick
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -313,7 +313,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 07 - Square Dance
+Name=07 - Square Dance
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -364,7 +364,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 08 - City of Rock 'n' Roll
+Name=08 - City of Rock 'n' Roll
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -415,7 +415,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 09 - Firefly Trick
+Name=09 - Firefly Trick
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -517,7 +517,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 11 - Rorschach Test
+Name=11 - Rorschach Test
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -568,7 +568,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 12 - Dodgeball
+Name=12 - Dodgeball
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -619,7 +619,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 13 - Track and field
+Name=13 - Track and field
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -670,7 +670,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 14 - Malevolence
+Name=14 - Malevolence
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -772,7 +772,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 16 - Hit the slopes
+Name=16 - Hit the slopes
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -823,7 +823,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 17 - What?
+Name=17 - What?
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -874,7 +874,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 18 - Mess
+Name=18 - Mess
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -925,7 +925,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 19 - Combo
+Name=19 - Combo
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false

@@ -14,7 +14,7 @@ TitleScreenScroll=iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfA
 Levels=5
 
 [cave]
-Name=Cave 01 – First Digs
+Name=01 – First Digs
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Blue Blue White White Blue
@@ -78,7 +78,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 02 – Walls of Change
+Name=02 – Walls of Change
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -143,7 +143,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 03 – Inside the Box
+Name=03 – Inside the Box
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -338,7 +338,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 06 – Labyrinthine Grotto
+Name=06 – Labyrinthine Grotto
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Red Red White White Red
@@ -402,7 +402,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 07 – Stalked by Killers
+Name=07 – Stalked by Killers
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -467,7 +467,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 08 – Enclosure
+Name=08 – Enclosure
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -532,7 +532,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 09 – Labyrinthine Grotto II
+Name=09 – Labyrinthine Grotto II
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -666,7 +666,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 11 – Amoeba Magic
+Name=11 – Amoeba Magic
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray1 Cyan White White Gray1
@@ -731,7 +731,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWPWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 12 – Dual Banks
+Name=12 – Dual Banks
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -796,7 +796,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 13 – Lights Out
+Name=13 – Lights Out
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -861,7 +861,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 14 – The Plaza
+Name=14 – The Plaza
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -992,7 +992,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave  16 – Square Ode to the Flies
+Name= 16 – Square Ode to the Flies
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black LightRed Blue Green Green LightRed
@@ -1056,7 +1056,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 17 – Narrow Path
+Name=17 – Narrow Path
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1121,7 +1121,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 18 – Amoeba Madness?!
+Name=18 – Amoeba Madness?!
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1188,7 +1188,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 19 – Breaking the Fourth Wall
+Name=19 – Breaking the Fourth Wall
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1318,7 +1318,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 21 – Dwelling
+Name=21 – Dwelling
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Yellow Purple White White Yellow
@@ -1382,7 +1382,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 22 – Secret Diamonds
+Name=22 – Secret Diamonds
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1447,7 +1447,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 23 – Buttering the Flies
+Name=23 – Buttering the Flies
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1513,7 +1513,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 24 – Three Bank Flies
+Name=24 – Three Bank Flies
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21

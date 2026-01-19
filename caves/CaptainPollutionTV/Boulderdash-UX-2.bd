@@ -12,7 +12,7 @@ Name=Boulderdash-UX-2
 Levels=5
 
 [cave]
-Name=Cave a
+Name=a
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Brown Red Yellow Yellow Brown
@@ -78,7 +78,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave b
+Name=b
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -145,7 +145,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave c
+Name=c
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -210,7 +210,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave d
+Name=d
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -340,7 +340,7 @@ WWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave e
+Name=e
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -405,7 +405,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave f
+Name=f
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -470,7 +470,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave g
+Name=g
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -535,7 +535,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave h
+Name=h
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -665,7 +665,7 @@ WWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave i
+Name=i
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -732,7 +732,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave j
+Name=j
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -797,7 +797,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave k
+Name=k
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -862,7 +862,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave l
+Name=l
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -995,7 +995,7 @@ WWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave m
+Name=m
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1060,7 +1060,7 @@ WWWWWWWWWWWWW.rr...r.d.WWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave n
+Name=n
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1126,7 +1126,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave o
+Name=o
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1192,7 +1192,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave p
+Name=p
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1323,7 +1323,7 @@ WWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave q
+Name=q
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1390,7 +1390,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave r
+Name=r
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1458,7 +1458,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave s
+Name=s
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21
@@ -1524,7 +1524,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave t
+Name=t
 Selectable=false
 Intermission=false
 Size=40 22 0 0 39 21

@@ -7,7 +7,7 @@ TitleScreenScroll=iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfA
 Levels=5
 
 [cave]
-Name=Cave A
+Name=A
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -40,7 +40,7 @@ Point=38 16 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave B
+Name=B
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -81,7 +81,7 @@ Point=18 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave C
+Name=C
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -112,7 +112,7 @@ Point=39 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave D
+Name=D
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -188,7 +188,7 @@ Point=18 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave E
+Name=E
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -243,7 +243,7 @@ Point=34 14 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave F
+Name=F
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -300,7 +300,7 @@ Point=38 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave G
+Name=G
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -340,7 +340,7 @@ Point=39 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave H
+Name=H
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -424,7 +424,7 @@ Point=18 2 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave I
+Name=I
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -461,7 +461,7 @@ Point=8 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave J
+Name=J
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -506,7 +506,7 @@ Line=4 14 4 17 DIAMOND
 [/cave]
 
 [cave]
-Name=Cave K
+Name=K
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -552,7 +552,7 @@ Point=38 15 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave L
+Name=L
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -633,7 +633,7 @@ Point=18 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave M
+Name=M
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -668,7 +668,7 @@ Rectangle=5 19 34 20 DIRT
 [/cave]
 
 [cave]
-Name=Cave N
+Name=N
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -709,7 +709,7 @@ Point=39 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave O
+Name=O
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -744,7 +744,7 @@ Point=20 1 INBOX
 [/cave]
 
 [cave]
-Name=Cave P
+Name=P
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false

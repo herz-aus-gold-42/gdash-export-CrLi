@@ -556,7 +556,7 @@ Point=22 19 CLOCK
 [/cave]
 
 [cave]
-Name=Cave A. Sendy's Intro
+Name=A. Sendy's Intro
 Author=Dustin
 Date=2021-03-04
 Intermission=false
@@ -585,7 +585,7 @@ Point=37 19 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave B. Matrix
+Name=B. Matrix
 Author=Dustin
 Date=2021-03-04
 Intermission=false
@@ -625,7 +625,7 @@ Point=20 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave C. Hocus Pocus
+Name=C. Hocus Pocus
 Author=Dustin
 Date=2021-03-05
 Intermission=false
@@ -652,7 +652,7 @@ Line=1 21 38 21 STEELWALL
 [/cave]
 
 [cave]
-Name=Cave D. Butterfly Formations
+Name=D. Butterfly Formations
 Author=Dustin
 Date=2021-03-06
 Intermission=false
@@ -783,7 +783,7 @@ Point=18 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave E. Stopover
+Name=E. Stopover
 Author=Dustin
 Date=2021-03-06
 Intermission=false
@@ -817,7 +817,7 @@ Point=39 9 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave F. Mini Firefly Dens
+Name=F. Mini Firefly Dens
 Author=Dustin
 Date=2021-03-06
 Intermission=false
@@ -881,7 +881,7 @@ Point=32 16 SPACE
 [/cave]
 
 [cave]
-Name=Cave G. Growing Rivals
+Name=G. Growing Rivals
 Author=Dustin
 Date=2021-03-08
 Intermission=false
@@ -912,7 +912,7 @@ Rectangle=22 10 24 12 AMOEBA
 [/cave]
 
 [cave]
-Name=Cave H. Enchanted Flies
+Name=H. Enchanted Flies
 Author=Dustin
 Date=2021-03-09
 Intermission=false
@@ -984,7 +984,7 @@ Line=10 8 17 1 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave I. Greedy Wizard
+Name=I. Greedy Wizard
 Author=Dustin
 Date=2021-03-10
 Intermission=false
@@ -1012,7 +1012,7 @@ Point=20 11 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave J. Labyrinth Tracks
+Name=J. Labyrinth Tracks
 Author=Dustin
 Date=2021-03-11
 Intermission=false
@@ -1040,7 +1040,7 @@ Point=20 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave K. Deserted Crowd
+Name=K. Deserted Crowd
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1074,7 +1074,7 @@ Point=7 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave L. Ad Banner
+Name=L. Ad Banner
 Author=Dustin
 Date=2021-03-15
 Intermission=false
@@ -1214,7 +1214,7 @@ Point=1 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave M. Exploding Dash
+Name=M. Exploding Dash
 Author=Dustin
 Date=2021-03-16
 Intermission=false
@@ -1249,7 +1249,7 @@ Point=38 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave N. Zigzag Tetris
+Name=N. Zigzag Tetris
 Author=Dustin
 Date=2021-03-16
 Intermission=false
@@ -1329,7 +1329,7 @@ Point=10 3 MAGICWALL
 [/cave]
 
 [cave]
-Name=Cave O. Present Perfect
+Name=O. Present Perfect
 Author=Dustin
 Date=2021-03-16
 Intermission=false
@@ -1361,7 +1361,7 @@ Line=1 0 38 0 STEELWALL
 [/cave]
 
 [cave]
-Name=Cave P. Ambitious Spelunking
+Name=P. Ambitious Spelunking
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false

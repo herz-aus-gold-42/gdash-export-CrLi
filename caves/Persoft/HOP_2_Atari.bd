@@ -7,7 +7,7 @@ Author=Persoft
 Levels=5
 
 [cave]
-Name=Cave 01
+Name=01
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -58,7 +58,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 02
+Name=02
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -109,7 +109,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 03
+Name=03
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -160,7 +160,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 04
+Name=04
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -265,7 +265,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 06
+Name=06
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -317,7 +317,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 07
+Name=07
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -368,7 +368,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 08
+Name=08
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -420,7 +420,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 09
+Name=09
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -524,7 +524,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 11
+Name=11
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -576,7 +576,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 12
+Name=12
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -628,7 +628,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 13
+Name=13
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -680,7 +680,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 14
+Name=14
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -783,7 +783,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 16
+Name=16
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -835,7 +835,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 17
+Name=17
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -887,7 +887,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 18
+Name=18
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -939,7 +939,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 19
+Name=19
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1042,7 +1042,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 21
+Name=21
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1094,7 +1094,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 22
+Name=22
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1146,7 +1146,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 23
+Name=23
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1197,7 +1197,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 24
+Name=24
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1248,7 +1248,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 25
+Name=25
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false

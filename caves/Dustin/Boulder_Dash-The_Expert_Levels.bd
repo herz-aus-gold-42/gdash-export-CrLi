@@ -9,7 +9,7 @@ Difficulty=hard to very hard
 Levels=5
 
 [cave]
-Name=Cave A. Intro
+Name=A. Intro
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -41,7 +41,7 @@ Point=38 16 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave B. Rooms
+Name=B. Rooms
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -80,7 +80,7 @@ Point=18 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave C. Maze
+Name=C. Maze
 Intermission=false
 Charset=Original
 Fontset=Original
@@ -104,7 +104,7 @@ Point=39 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave D. Butterflies
+Name=D. Butterflies
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -174,7 +174,7 @@ Point=18 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave E. Guards
+Name=E. Guards
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -225,7 +225,7 @@ Point=34 14 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave F. Firefly dens
+Name=F. Firefly dens
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -280,7 +280,7 @@ Point=38 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave G. Amoeba
+Name=G. Amoeba
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -320,7 +320,7 @@ Point=39 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave H. Enchanted wall
+Name=H. Enchanted wall
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -398,7 +398,7 @@ Point=18 2 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave I. Greed
+Name=I. Greed
 Intermission=false
 Charset=Original
 Fontset=Original
@@ -428,7 +428,7 @@ Point=8 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave J. Tracks
+Name=J. Tracks
 Intermission=false
 Charset=Original
 Fontset=Original
@@ -464,7 +464,7 @@ Line=4 14 4 17 DIAMOND
 [/cave]
 
 [cave]
-Name=Cave K. Crowd
+Name=K. Crowd
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -508,7 +508,7 @@ Point=38 15 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave L. Walls
+Name=L. Walls
 Intermission=false
 Charset=Original
 Fontset=Original
@@ -579,7 +579,7 @@ Point=18 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave M. Apocalypse
+Name=M. Apocalypse
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -614,7 +614,7 @@ Rectangle=5 19 34 20 DIRT
 [/cave]
 
 [cave]
-Name=Cave N. Zigzag
+Name=N. Zigzag
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -651,7 +651,7 @@ Point=39 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave O. Funnel
+Name=O. Funnel
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -685,7 +685,7 @@ Point=20 1 INBOX
 [/cave]
 
 [cave]
-Name=Cave P. Enchanted boxes
+Name=P. Enchanted boxes
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false

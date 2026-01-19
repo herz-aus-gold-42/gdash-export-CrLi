@@ -13,7 +13,7 @@ TitleScreenScroll=iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfA
 Levels=5
 
 [cave]
-Name=Cave 1. Jail
+Name=1. Jail
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Brown Orange Green Green Brown
@@ -63,7 +63,7 @@ Point=32 14 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave 2. Safebox
+Name=2. Safebox
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Orange Brown Cyan Cyan Orange
@@ -103,7 +103,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 3. Rain
+Name=3. Rain
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black LightGreen Orange Blue Blue LightGreen
@@ -142,7 +142,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 4. Escapade
+Name=4. Escapade
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Blue Purple White White Blue
@@ -181,7 +181,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 5. Chase
+Name=5. Chase
 Intermission=true
 Size=40 22 0 0 19 11
 Colors=Black Black LightGreen Purple Blue Blue LightGreen
@@ -220,7 +220,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 6. Rescue
+Name=6. Rescue
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Purple Blue Green Green Purple
@@ -259,7 +259,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 7. Gyro
+Name=7. Gyro
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Green Blue White White Green
@@ -298,7 +298,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 8. Push
+Name=8. Push
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Blue Gray1 Yellow Yellow Blue
@@ -338,7 +338,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 9. Rambo
+Name=9. Rambo
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Brown Blue White White Brown
@@ -377,7 +377,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 10. Drop
+Name=10. Drop
 Intermission=true
 Size=40 22 0 0 19 11
 Colors=Black Black LightRed Gray1 Cyan Cyan LightRed
@@ -416,7 +416,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 11. Tut
+Name=11. Tut
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Purple Brown Green Green Purple
@@ -455,7 +455,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 12. Maze
+Name=12. Maze
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Gray3 Blue Purple Purple Gray3
@@ -494,7 +494,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 13. Blast
+Name=13. Blast
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Purple Gray1 Yellow Yellow Purple
@@ -533,7 +533,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 14. Clash
+Name=14. Clash
 Intermission=false
 Size=40 22 0 0 39 21
 Colors=Black Black Red Blue Green Green Red
@@ -577,7 +577,7 @@ Point=10 19 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave 15. Autoban
+Name=15. Autoban
 Intermission=true
 Size=40 22 0 0 19 11
 Colors=Black Black Brown Blue Green Green Brown

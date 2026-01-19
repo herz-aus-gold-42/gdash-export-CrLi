@@ -10,7 +10,7 @@ TitleScreen=iVBORw0KGgoAAAANSUhEUgAAAUAAAACwCAIAAADxFyBQAAAAA3NCSVQICAjb4U/gAAAI
 Levels=5
 
 [cave]
-Name=CAVE A
+Name=A
 Description=Cauldron
 Author=Alchemysitcs
 Date=2022-01-16
@@ -57,7 +57,7 @@ Point=24 20 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE B
+Name=B
 Description=Heist
 Author=Alchemystics
 Date=2022-01-21
@@ -114,7 +114,7 @@ Point=22 7 FIREFLYd
 [/cave]
 
 [cave]
-Name=CAVE C
+Name=C
 Description=Bash
 Author=Alchemystics
 Date=2022-01-21
@@ -149,7 +149,7 @@ Rectangle=19 13 22 15 DIRT
 [/cave]
 
 [cave]
-Name=CAVE D
+Name=D
 Description=Anomalous
 Author=Alchemystics
 Date=2022-01-26
@@ -222,7 +222,7 @@ Rectangle=5 3 14 5 BOULDER
 [/cave]
 
 [cave]
-Name=CAVE E
+Name=E
 Description=Deviance
 Author=Alchemystics
 Date=2022-01-26
@@ -258,7 +258,7 @@ Point=39 16 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE F
+Name=F
 Description=Garden
 Author=Alchemystics
 Date=2022-01-27
@@ -326,7 +326,7 @@ FillRect=21 4 18 1 DIAMOND AMOEBA
 [/cave]
 
 [cave]
-Name=CAVE G
+Name=G
 Description=Disaster
 Author=Alchemystics
 Date=2022-01-27
@@ -361,7 +361,7 @@ Point=39 9 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE H
+Name=H
 Description=Dunkelheit
 Author=Alchemystics
 Date=2022-01-27
@@ -440,7 +440,7 @@ Point=10 5 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE I
+Name=I
 Description=Blood Ruby
 Author=Alchemystics
 Date=2022-01-27
@@ -506,7 +506,7 @@ Line=1 1 11 1 SPACE
 [/cave]
 
 [cave]
-Name=CAVE J
+Name=J
 Description=Dive
 Author=Alchemystics
 Date=2022-01-31
@@ -542,7 +542,7 @@ Point=2 19 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE K
+Name=K
 Description=Activity
 Author=Alchemystics
 Date=2022-01-31
@@ -577,7 +577,7 @@ Point=39 2 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE L
+Name=L
 Description=Armageddon
 Author=Alchemystics
 Date=2022-02-02
@@ -657,7 +657,7 @@ Point=3 5 INBOX
 [/cave]
 
 [cave]
-Name=CAVE M
+Name=M
 Description=Flow
 Author=Alchemystics
 Date=2022-02-02
@@ -697,7 +697,7 @@ Point=1 1 INBOX
 [/cave]
 
 [cave]
-Name=CAVE N
+Name=N
 Description=Relic
 Author=Alchemystics
 Date=2022-02-04
@@ -746,7 +746,7 @@ Point=37 19 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE O
+Name=O
 Description=Foolery
 Author=Alchemystics
 Date=2022-02-04
@@ -807,7 +807,7 @@ Point=2 19 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE P
+Name=P
 Description=Fragility
 Author=Alchemystics
 Date=2022-02-04
