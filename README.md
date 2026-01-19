@@ -10,7 +10,7 @@ It supports replays, snapshots and has highscore tables.
 This fork adds some new features:
 
 * New command line options for bulk export (*the reason for the fork's name...*)
-* CrLi import/export bug fixed: Butterflies had wrong directions [try 1](https://github.com/revvv/gdash-export-CrLi/commit/f2c9913cfdc84fc8a0e519cf547e35d6d3d70fca) [#96]
+* CrLi import/export bug fixed: Butterflies had wrong directions [try 1](https://github.com/revvv/gdash-export-CrLi/commit/f2c9913cfdc84fc8a0e519cf547e35d6d3d70fca) [#96](https://github.com/revvv/gdash-export-CrLi/discussions/96)
 * Updated caves, fixed caves, added caves by [renyxadarox](https://github.com/renyxadarox), [Dustin974](https://github.com/Dustin974), [cwscws](https://github.com/cwscws), [herz-aus-gold-42](https://github.com/herz-aus-gold-42)
 * After completing a cave you can skip the time countdown with F (fast) or ESC [#50](https://github.com/revvv/gdash-export-CrLi/issues/50)<br>
   Very useful if your test cave has time 999.
@@ -61,7 +61,7 @@ This fork adds some new features:
      Unknown elements are simply imported as _steel wall_. If you want to play the caves, always prefer the .bd version.
 - Q: I have the feeling that butterflies move in the wrong direction for `.gds` files with header _GDashCRL_?<br>
   A: GDash-export 1.1, GDash-export >= 1.2 and GDash-export >= 1.10.0 interpret butterfly directions differently.
-     Finally we fixed it. :D [#96]
+     Finally we fixed it. :D [#96](https://github.com/revvv/gdash-export-CrLi/discussions/96)
 - Q: Does GDash for cygwin support gamepads?<br>
   A: Yes, but make sure you have the latest version: SDL2-2.28.4-1a (2023-10-06)<br>
      Please check if dinput and xinput gamepads work in GTK+ and SDL mode. Right now all combinations work fine!
