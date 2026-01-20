@@ -49,15 +49,17 @@ const char *About::license =
         "WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     );
 
-const char *About::artists[] = { "CWS",
+const char *About::artists[] = { "CWS https://github.com/cwscws",
                                  0
                                };
 
 const char *About::authors[] = { "Czirkos Zoltan <czirkos.zoltan@gmail.com>",
-                                 "Enhancements, fixes: <a href='https://github.com/revvv'>revvv</a>",
-                                 "Specifications, caves, test: <a href='https://github.com/cwscws'>CWS</a>",
-                                 "Caves: <a href='https://github.com/renyxadarox'>renyxadarox</a> <a href='https://github.com/Dustin974'>Dustin974</a>",
-                                 "Fixes: <a href='https://github.com/herz-aus-gold-42'>herz-aus-gold-42</a>",
+                                 "revvv https://github.com/revvv",
+                                 "CWS https://github.com/cwscws",
+                                 "renyxadarox https://github.com/renyxadarox",
+                                 "Dustin974 https://github.com/Dustin974",
+                                 "thealtermaven https://github.com/thealtermaven",
+                                 "herz-aus-gold-42 https://github.com/herz-aus-gold-42",
                                  "Scale2x: Andrea Mazzoleni",
                                  "hqx: Maxim Stepin, Cameron Zemek",
 #ifdef HAVE_SDL
