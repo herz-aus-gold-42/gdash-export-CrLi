@@ -20,11 +20,13 @@ Colors=Black Black Brown Orange Green Green Brown
 DiamondsRequired=4 4 4 4 4
 CaveTime=130 130 130 130 130
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=7 7 7 7 7
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
-
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
+  
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WP.....................................W
@@ -70,11 +72,13 @@ Colors=Black Black Orange Brown Cyan Cyan Orange
 DiamondsRequired=59 59 59 59 59
 CaveTime=85 85 85 85 85
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=7 7 7 7 7
 DiamondValue=10 99
-AmoebaTime=150 30 30 30 30
+AmoebaTime=150 150 150 150 150
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -110,10 +114,12 @@ Colors=Black Black LightGreen Orange Blue Blue LightGreen
 DiamondsRequired=60 60 60 60 60
 CaveTime=180 180 180 180 180
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=6 6 6 6 6
 DiamondValue=10 60
 SlimePermeabilityC64=254 254 254 254 254
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -149,10 +155,12 @@ Colors=Black Black Blue Purple White White Blue
 DiamondsRequired=11 11 11 11 11
 CaveTime=120 120 120 120 120
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=0 0 0 0 0
 DiamondValue=50 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -188,10 +196,12 @@ Colors=Black Black LightGreen Purple Blue Blue LightGreen
 DiamondsRequired=86 86 86 86 86
 CaveTime=20 20 20 20 20
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=6 6 6 6 6
 DiamondValue=5 90
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -227,10 +237,12 @@ Colors=Black Black Purple Blue Green Green Purple
 DiamondsRequired=1 1 1 1 1
 CaveTime=200 200 200 200 200
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=9 9 9 9 9
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -266,10 +278,12 @@ Colors=Black Black Green Blue White White Green
 DiamondsRequired=1 1 1 1 1
 CaveTime=60 60 60 60 60
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=9 9 9 9 9
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -305,11 +319,13 @@ Colors=Black Black Blue Gray1 Yellow Yellow Blue
 DiamondsRequired=46 46 46 46 46
 CaveTime=255 255 255 255 255
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=0 0 0 0 0
 DiamondValue=15 0
 MagicWallTime=200 200 200 200 200
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -345,10 +361,12 @@ Colors=Black Black Brown Blue White White Brown
 DiamondsRequired=45 45 45 45 45
 CaveTime=60 60 60 60 60
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=5 5 5 5 5
 DiamondValue=20 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -384,10 +402,12 @@ Colors=Black Black LightRed Gray1 Cyan Cyan LightRed
 DiamondsRequired=6 6 6 6 6
 CaveTime=30 30 30 30 30
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=5 5 5 5 5
 DiamondValue=80 99
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -423,10 +443,12 @@ Colors=Black Black Purple Brown Green Green Purple
 DiamondsRequired=9 9 9 9 9
 CaveTime=255 255 255 255 255
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=11 11 11 11 11
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -462,10 +484,12 @@ Colors=Black Black Gray3 Blue Purple Purple Gray3
 DiamondsRequired=6 6 6 6 6
 CaveTime=230 230 230 230 230
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=6 6 6 6 6
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -501,10 +525,12 @@ Colors=Black Black Purple Gray1 Yellow Yellow Purple
 DiamondsRequired=3 3 3 3 3
 CaveTime=226 226 226 226 226
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=0 0 0 0 0
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -540,11 +566,13 @@ Colors=Black Black Red Blue Green Green Red
 DiamondsRequired=75 75 75 75 75
 CaveTime=110 110 110 110 110
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=7 7 7 7 7
 DiamondValue=10 90
-AmoebaTime=150 40 40 40 40
+AmoebaTime=150 150 150 150 150
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
@@ -584,10 +612,12 @@ Colors=Black Black Brown Blue Green Green Brown
 DiamondsRequired=6 6 6 6 6
 CaveTime=20 20 20 20 20
 CaveScheduling=plck
-FrameTime=180 160 140 120 120
+FrameTime=160 160 160 160 160
 CaveDelay=6 6 6 6 6
 DiamondValue=99 0
 SlimePermeabilityC64=0 0 0 0 0
+TimeValue=1 1 1 1 1
+RandSeed=0 0 0 0 0
 
 [map]
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
