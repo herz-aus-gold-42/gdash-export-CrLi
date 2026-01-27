@@ -115,8 +115,10 @@ GdElementEnum const C64Import::import_table_1stb[0x80] = {
     /* 24 */ O_PRE_DIA_5, O_INBOX, O_PRE_PL_1, O_PRE_PL_2,
     /* 28 */ O_PRE_PL_3, O_CLOCK, O_H_EXPANDING_WALL, O_H_EXPANDING_WALL_scanned,   /* CLOCK: not mentioned in marek's bd inside faq */
     /* 2c */ O_CREATURE_SWITCH, O_CREATURE_SWITCH, O_EXPANDING_WALL_SWITCH, O_EXPANDING_WALL_SWITCH,
-    /* 30 */ O_BUTTER_3, O_BUTTER_4, O_BUTTER_1, O_BUTTER_2,
-    /* 34 */ O_BUTTER_3_scanned, O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned,
+    /* 30    O_BUTTER_3, O_BUTTER_4, O_BUTTER_1, O_BUTTER_2, */
+    /* 34    O_BUTTER_3_scanned, O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned, */
+    /* 30 */ O_BUTTER_3, O_BUTTER_2, O_BUTTER_1, O_BUTTER_4, // fix order
+    /* 34 */ O_BUTTER_3_scanned, O_BUTTER_2_scanned, O_BUTTER_1_scanned, O_BUTTER_4_scanned, // fix order
     /* 38 */ O_STEEL, O_SLIME, O_BOMB, O_SWEET,
     /* 3c */ O_PRE_STONE_1, O_PRE_STONE_2, O_PRE_STONE_3, O_PRE_STONE_4,
     /* 40 */ O_BLADDER, O_BLADDER_1, O_BLADDER_2, O_BLADDER_3,
@@ -151,8 +153,10 @@ GdElementEnum const C64Import::import_table_crdr[0x100] = {
     /* 24 */ O_PRE_DIA_5, O_INBOX, O_PRE_PL_1, O_PRE_PL_2,
     /* 28 */ O_PRE_PL_3, O_CLOCK, O_H_EXPANDING_WALL, O_H_EXPANDING_WALL_scanned,   /* CLOCK: not mentioned in marek's bd inside faq */
     /* 2c */ O_CREATURE_SWITCH, O_CREATURE_SWITCH, O_EXPANDING_WALL_SWITCH, O_EXPANDING_WALL_SWITCH,
-    /* 30 */ O_BUTTER_3, O_BUTTER_4, O_BUTTER_1, O_BUTTER_2,
-    /* 34 */ O_BUTTER_3_scanned, O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned,
+    /* 30    O_BUTTER_3, O_BUTTER_4, O_BUTTER_1, O_BUTTER_2, */
+    /* 34    O_BUTTER_3_scanned, O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned, */
+    /* 30 */ O_BUTTER_3, O_BUTTER_2, O_BUTTER_1, O_BUTTER_4, // fix order
+    /* 34 */ O_BUTTER_3_scanned, O_BUTTER_2_scanned, O_BUTTER_1_scanned, O_BUTTER_4_scanned, // fix order
     /* 38 */ O_STEEL, O_SLIME, O_BOMB, O_SWEET,
     /* 3c */ O_PRE_STONE_1, O_PRE_STONE_2, O_PRE_STONE_3, O_PRE_STONE_4,
     /* 40 */ O_BLADDER, O_BLADDER_1, O_BLADDER_2, O_BLADDER_3,
@@ -206,7 +210,7 @@ GdElementEnum const C64Import::import_table_crdr[0x100] = {
     /* fc */ O_WATER, O_WATER, O_WATER, O_WATER,
 };
 
-/// conversion table for imported 1stb caves.
+/// conversion table for imported CrLi caves.
 /// @todo check O_PRE_DIA_0 and O_EXPLODE_0
 GdElementEnum const C64Import::import_table_crli[0x80] = {
     /*  0 */ O_SPACE, O_DIRT, O_BRICK, O_MAGIC_WALL,
@@ -1053,7 +1057,7 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
                     int y   = data[index + 2];
                     // int lsb = data[index + 4];  // only for completeness
                     // int msb = data[index + 5];  // only for completeness
-                    // data start after 
+                    // data start after
                     int didx = index + 6;
                     int ppos = y * 40 + x;
                     int x1   = 0;
@@ -1113,7 +1117,7 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
     index++;    /* animation byte - told the engine which objects to animate - to make game faster */
 
     /* the colors from the memory dump are appended here */
-    if (format == GD_FORMAT_BD2) {  // hack == BoulderDashCaduta 
+    if (format == GD_FORMAT_BD2) {  // hack == BoulderDashCaduta
         /* c64 colors */
         cave.colorb = GdColor::from_c64(0); /* always black */
         cave.color0 = GdColor::from_c64(0); /* always black */
