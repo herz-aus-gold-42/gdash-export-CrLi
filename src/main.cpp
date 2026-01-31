@@ -65,9 +65,6 @@
 
 #include "mainwindow.hpp"
 
-/* includes cavesets built in to the executable */
-#include "levels.cpp"
-
 
 
 int main(int argc, char *argv[]) {
@@ -179,24 +176,38 @@ int main(int argc, char *argv[]) {
         thislogger.clear();
     }
 
-    /* LOAD A CAVESET FROM A FILE, OR AN INTERNAL ONE */
-    /* if remaining arguments, they are filenames */
+    /* load caveset from command line or default caveset or last played caveset */
     try {
+        std::string filename = "";
+        /* if remaining arguments, they are filenames */
         if (gd_param_cavenames && gd_param_cavenames[0]) {
-            caveset = load_caveset_from_file(gd_param_cavenames[0]);
-            load_highscore(caveset);
+            filename = gd_param_cavenames[0];
         } else {
-            /* export-fork: load BD1 by default */
-            try {
-                caveset = load_caveset_from_file("caves/First_Star_Software/Boulder_Dash_1.bd");
-                load_highscore(caveset);
-            } catch (std::exception &e) {
-                gd_warning("BD1 not found, loading 'Afl Posocopi' instead");
-                /* if nothing requested, load default */
-                caveset = create_from_buffer(level_pointers[0], -1);
-                caveset.name = level_names[0];
-                load_highscore(caveset);
+            switch (gd_startup_cave) {
+            default:
+            case GD_STARTUP_CAVE_BD1:
+                filename = "caves/First_Star_Software/Boulder_Dash_1.bd";
+                break;
+            case GD_STARTUP_CAVE_BD2:
+                filename = "caves/First_Star_Software/Boulder_Dash_2.bd";
+                break;
+            case GD_STARTUP_CAVE_BD3:
+                filename = "caves/First_Star_Software/Boulder_Dash_3.bd";
+                break;
+            case GD_STARTUP_CAVE_BD4:
+                filename = "caves/First_Star_Software/Boulder_Dash_4.bd";
+                break;
+            case GD_STARTUP_CAVE_LAST:
+                filename = gd_last_cave_file;
+                break;
             }
+        }
+
+        try {
+            caveset = load_caveset_from_file(filename.c_str());
+            load_highscore(caveset);
+        } catch (std::exception &e) {
+            gd_warning("cave '%s' not found", gd_last_cave_file);
         }
     } catch (std::exception &e) {
         /// @todo show error to the screen

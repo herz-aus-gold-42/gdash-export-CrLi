@@ -56,6 +56,8 @@ const char *gd_languages_names[] = {N_("System default"), "English", "Deutsch", 
 /* this should correspond to the above one. */
 static const char *languages_for_env[] = { NULL, "en", "de", "hu" };
 
+const char *gd_startup_cave_options[] = { "BD1", "BD2", "BD3", "BD4", N_("Last played cave"), NULL};
+
 #ifdef G_OS_WIN32
 /* locale names used in windows. */
 static const char *language_locale_default[] = { "", NULL, };
@@ -125,6 +127,8 @@ bool gd_fast_uncover_in_test = true;
 
 /* preferences */
 int gd_language = 0;
+int gd_startup_cave = 0;
+std::string gd_last_cave_file = "";
 bool gd_show_preview = true;
 
 /* graphics */
@@ -230,6 +234,7 @@ Setting *gd_get_game_settings_array() {
     static Setting settings_static[] = {
         { TypePage, N_("Game") },
         { TypeStringv, N_("Language"), &gd_language, false, gd_languages_names, N_("The language of the application. Changing this setting requires a restart!") },
+        { TypeStringv, N_("Startup cave set"), &gd_startup_cave, false, gd_startup_cave_options, N_("Cave set to load on startup.") },
         { TypeBoolean, N_("All caves selectable"), &gd_all_caves_selectable, false, NULL, N_("All caves and intermissions can be selected at game start.") },
         { TypeBoolean, N_("Import as all selectable"), &gd_import_as_all_caves_selectable, false, NULL, N_("Original, C64 games are imported not with A, E, I, M caves selectable, but all caves (ABCD, EFGH... excluding intermissions). This does not affect BDCFF caves.") },
         { TypeBoolean, N_("Use BDCFF highscore"), &gd_use_bdcff_highscore, false, NULL, N_("Use BDCFF highscores. GDash saves highscores in its own configuration directory and also in the *.bd files. However, it prefers loading them from the configuration directory; as the *.bd files might be read-only. You can enable this setting to let GDash load them from the *.bd files.") },
@@ -275,7 +280,7 @@ Setting *gd_get_game_settings_array() {
         { TypePercent, N_("Scanline shade"), &shader_pal_scanline_shade_luma, false, NULL, N_("Darkened horizontal rows to emulate a TV screen.") },
         { TypePercent, N_("Phosphor shade"), &shader_pal_phosphor_shade, false, NULL, N_("Red, green and blue subpixels of a TV screen can be emulated.") },
         { TypeBoolean, N_("Force OpenGL Renderer"), &gd_opengl_renderer, true, NULL, N_("If this option is activated, the \"opengl\" renderer is used, otherwise the default renderer. This option may have influence on the frame rate of the game.") },
-#endif        
+#endif
 
 #ifdef HAVE_GTK
         { TypePage, N_("Editor settings") },
@@ -499,6 +504,8 @@ void gd_settings_init() {
     settings_integers["editor_window_width"] = &gd_editor_window_width;
     settings_integers["editor_window_height"] = &gd_editor_window_height;
     settings_integers["language"] = &gd_language;
+    settings_integers["startup_cave"] = &gd_startup_cave;
+    settings_strings["last_cave_file"] = &gd_last_cave_file;
     settings_bools["fullscreen"] = &gd_fullscreen;
     settings_integers["graphics_engine"] = &gd_graphics_engine;
     settings_integers["view_width"] = &gd_view_width;
