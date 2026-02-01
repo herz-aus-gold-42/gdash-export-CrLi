@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GDash 20130407\n"
 "Report-Msgid-Bugs-To: https://github.com/revvv/gdash-export-CrLi\n"
-"POT-Creation-Date: 2026-01-31 09:56+0100\n"
+"POT-Creation-Date: 2026-02-01 13:54+0100\n"
 "PO-Revision-Date: 2013-03-15 19:08+0100\n"
 "Last-Translator: Shabanak\n"
 "Language-Team: German\n"
@@ -7126,8 +7126,8 @@ msgid "Key restart level"
 msgstr "Taste Level wiederholen"
 
 #: src/settings.cpp:771
-msgid "same as --help but translated"
-msgstr "indetisch mit --help jedoch übersetzt"
+msgid "Same as --help but translated"
+msgstr "Indetisch mit --help jedoch übersetzt"
 
 #: src/settings.cpp:772
 msgid "Show license and quit"

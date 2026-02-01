@@ -207,7 +207,7 @@ int main(int argc, char *argv[]) {
             caveset = load_caveset_from_file(filename.c_str());
             load_highscore(caveset);
         } catch (std::exception &e) {
-            gd_warning("cave '%s' not found", gd_last_cave_file);
+            gd_warning("cave '%s' not found", filename);
         }
     } catch (std::exception &e) {
         /// @todo show error to the screen

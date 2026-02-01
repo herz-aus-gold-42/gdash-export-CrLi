@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdash export-1.10.2\n"
 "Report-Msgid-Bugs-To: https://github.com/revvv/gdash-export-CrLi\n"
-"POT-Creation-Date: 2026-01-31 09:56+0100\n"
+"POT-Creation-Date: 2026-02-01 13:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6015,7 +6015,7 @@ msgid "Key restart level"
 msgstr ""
 
 #: src/settings.cpp:771
-msgid "same as --help but translated"
+msgid "Same as --help but translated"
 msgstr ""
 
 #: src/settings.cpp:772

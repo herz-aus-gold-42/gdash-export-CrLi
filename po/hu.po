@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GDash 20130403\n"
 "Report-Msgid-Bugs-To: https://github.com/revvv/gdash-export-CrLi\n"
-"POT-Creation-Date: 2026-01-31 09:56+0100\n"
+"POT-Creation-Date: 2026-02-01 13:54+0100\n"
 "PO-Revision-Date: 2009-11-26 14:06+0100\n"
 "Last-Translator: Czirkos Zoltan\n"
 "Language-Team: Hungarian <>\n"
@@ -6830,8 +6830,8 @@ msgid "Key restart level"
 msgstr "Újrakezdés gomb"
 
 #: src/settings.cpp:771
-msgid "same as --help but translated"
-msgstr "ugyanaz, mint a --help, de lefordítva"
+msgid "Same as --help but translated"
+msgstr "Ugyanaz, mint a --help, de lefordítva"
 
 #: src/settings.cpp:772
 msgid "Show license and quit"
