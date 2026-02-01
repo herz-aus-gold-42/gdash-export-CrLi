@@ -102,6 +102,7 @@ CaveSet create_from_buffer(const unsigned char *buffer, int length, char const *
  * @return The caveset loaded. If impossible to load, throws an exception.
  */
 CaveSet load_caveset_from_file(const char *filename) {
+    gd_last_cave_file = filename;
     std::vector<unsigned char> contents = load_file_to_vector(filename);
     /* -1 because the loader adds a terminating zero */
     return create_from_buffer(&contents[0], contents.size() - 1, filename);
