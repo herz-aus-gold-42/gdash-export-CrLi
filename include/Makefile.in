@@ -338,9 +338,6 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-CAVES = \
-	Afl_Posocopi.gds
-
 ATARIPALETTES = \
 	BuiltIn.act \
 	BuiltIn_contrast.act \
@@ -409,7 +406,6 @@ noinst_HEADERS = \
 	gamebackground.cpp \
 	gdash_icon_32.cpp \
 	gdash_icon_48.cpp \
-	levels.cpp \
 	ataripal.cpp \
 	dtvpal.cpp \
 	for_html.cpp
@@ -422,7 +418,6 @@ EXTRA_DIST = $(ICONS) $(TITLE) $(GAMEBACKGROUND) $(FOR_HTML) \
 	$(GDASH_ICON_32) \
 	$(GDASH_ICON_48) \
 	$(pkgdata_DATA) \
-	$(CAVES) \
 	$(ATARIPALETTES) \
 	$(DTVPALETTES)
 
@@ -757,10 +752,6 @@ icons.list: $(ICONS)
 # the include files
 icons.cpp: $(ICONS) icons.list
 	gdk-pixbuf-csource --rle --build-list `cat icons.list` > $@
-
-levels.cpp: $(CAVES)
-	make files2c$(EXEEXT)
-	./files2c level $^ > $@
 
 ataripal.cpp: $(ATARIPALETTES)
 	make files2c$(EXEEXT)
