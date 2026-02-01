@@ -768,7 +768,7 @@ void gd_save_settings() {
 
 GOptionContext *gd_option_context_new() {
     GOptionEntry const entries[] = {
-        {"help-localized", 0, 0, G_OPTION_ARG_NONE, &gd_param_help_localized, N_("same as --help but translated")},
+        {"help-localized", 0, 0, G_OPTION_ARG_NONE, &gd_param_help_localized, N_("Same as --help but translated")},
         {"license", 'L', 0, G_OPTION_ARG_NONE, &gd_param_license, N_("Show license and quit")},
         {"debug", 'v', 0, G_OPTION_ARG_NONE, &gd_param_debug, N_("Show some debug messages")},
         {"default-settings", 0, 0, G_OPTION_ARG_NONE, &gd_param_load_default_settings, N_("Load default settings")},
