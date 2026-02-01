@@ -7127,7 +7127,7 @@ msgstr "Taste Level wiederholen"
 
 #: src/settings.cpp:771
 msgid "Same as --help but translated"
-msgstr "Indetisch mit --help jedoch übersetzt"
+msgstr "Identisch mit --help jedoch übersetzt"
 
 #: src/settings.cpp:772
 msgid "Show license and quit"
