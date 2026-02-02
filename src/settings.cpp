@@ -188,7 +188,7 @@ int shader_pal_random_y = 5;
 int shader_pal_random_uv = 10;
 int shader_pal_scanline_shade_luma = 90;
 int shader_pal_phosphor_shade = 90;
-bool gd_opengl_renderer = false;
+bool gd_opengl_vsync = false;
 #endif    /* use_sdl */
 
 /* sound settings */
@@ -279,7 +279,7 @@ Setting *gd_get_game_settings_array() {
         { TypePercent, N_("Random UV"), &shader_pal_random_uv, false, NULL, N_("Noise level of colors.") },
         { TypePercent, N_("Scanline shade"), &shader_pal_scanline_shade_luma, false, NULL, N_("Darkened horizontal rows to emulate a TV screen.") },
         { TypePercent, N_("Phosphor shade"), &shader_pal_phosphor_shade, false, NULL, N_("Red, green and blue subpixels of a TV screen can be emulated.") },
-        { TypeBoolean, N_("Force OpenGL VSync"), &gd_opengl_renderer, true, NULL, N_("This option enables VSync. The fps is limited to the monitor's frequency (e.g. 60 Hz) to eliminate tearing.") },
+        { TypeBoolean, N_("Force OpenGL VSync"), &gd_opengl_vsync, true, NULL, N_("This option enables VSync. The fps is limited to the monitor's frequency (e.g. 60 Hz) to eliminate tearing.") },
 #endif
 
 #ifdef HAVE_GTK
@@ -555,7 +555,7 @@ void gd_settings_init() {
     settings_integers["shader_pal_random_uv"] = &shader_pal_random_uv;
     settings_integers["shader_pal_scanline_shade_luma"] = &shader_pal_scanline_shade_luma;
     settings_integers["shader_pal_phosphor_shade"] = &shader_pal_phosphor_shade;
-    settings_bools["opengl_renderer"] = &gd_opengl_renderer;
+    settings_bools["opengl_vsync"] = &gd_opengl_vsync;
 #endif    /* use_sdl */
 
 #ifdef HAVE_SDL
