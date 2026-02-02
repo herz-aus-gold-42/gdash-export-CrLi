@@ -115,8 +115,6 @@ GdElementEnum const C64Import::import_table_1stb[0x80] = {
     /* 24 */ O_PRE_DIA_5, O_INBOX, O_PRE_PL_1, O_PRE_PL_2,
     /* 28 */ O_PRE_PL_3, O_CLOCK, O_H_EXPANDING_WALL, O_H_EXPANDING_WALL_scanned,   /* CLOCK: not mentioned in marek's bd inside faq */
     /* 2c */ O_CREATURE_SWITCH, O_CREATURE_SWITCH, O_EXPANDING_WALL_SWITCH, O_EXPANDING_WALL_SWITCH,
-    /* 30    O_BUTTER_3, O_BUTTER_4, O_BUTTER_1, O_BUTTER_2, */
-    /* 34    O_BUTTER_3_scanned, O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned, */
     /* 30 */ O_BUTTER_3, O_BUTTER_2, O_BUTTER_1, O_BUTTER_4, // fix order
     /* 34 */ O_BUTTER_3_scanned, O_BUTTER_2_scanned, O_BUTTER_1_scanned, O_BUTTER_4_scanned, // fix order
     /* 38 */ O_STEEL, O_SLIME, O_BOMB, O_SWEET,
@@ -153,8 +151,6 @@ GdElementEnum const C64Import::import_table_crdr[0x100] = {
     /* 24 */ O_PRE_DIA_5, O_INBOX, O_PRE_PL_1, O_PRE_PL_2,
     /* 28 */ O_PRE_PL_3, O_CLOCK, O_H_EXPANDING_WALL, O_H_EXPANDING_WALL_scanned,   /* CLOCK: not mentioned in marek's bd inside faq */
     /* 2c */ O_CREATURE_SWITCH, O_CREATURE_SWITCH, O_EXPANDING_WALL_SWITCH, O_EXPANDING_WALL_SWITCH,
-    /* 30    O_BUTTER_3, O_BUTTER_4, O_BUTTER_1, O_BUTTER_2, */
-    /* 34    O_BUTTER_3_scanned, O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned, */
     /* 30 */ O_BUTTER_3, O_BUTTER_2, O_BUTTER_1, O_BUTTER_4, // fix order
     /* 34 */ O_BUTTER_3_scanned, O_BUTTER_2_scanned, O_BUTTER_1_scanned, O_BUTTER_4_scanned, // fix order
     /* 38 */ O_STEEL, O_SLIME, O_BOMB, O_SWEET,
@@ -225,18 +221,8 @@ GdElementEnum const C64Import::import_table_crli[0x80] = {
     /* 24 */ O_PRE_DIA_5, O_INBOX, O_PRE_PL_1, O_PRE_PL_2,
     /* 28 */ O_PRE_PL_3, O_CLOCK, O_H_EXPANDING_WALL, O_H_EXPANDING_WALL_scanned,   /* CLOCK: not mentioned in marek's bd inside faq */
     /* 2c */ O_CREATURE_SWITCH, O_CREATURE_SWITCH, O_EXPANDING_WALL_SWITCH, O_EXPANDING_WALL_SWITCH,
-    /*-- version1 -->*/
-    // 30 // O_BUTTER_3, O_BUTTER_4, O_BUTTER_1, O_BUTTER_2,
-    // 34 // O_BUTTER_3_scanned, O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned,
-    /*<-- version1 --*/
-    /*-- version2 -->*/
-    // 30 // O_BUTTER_4, O_BUTTER_1, O_BUTTER_2, O_BUTTER_3, // fix order
-    // 34 // O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned, O_BUTTER_3_scanned, // fix order
-    /*<-- version2 --*/
-    /*-- version3 -->*/// (right "B")      // (up "b")         // (left "C")       // (down "c")
-    /* 30 */              O_BUTTER_3        , O_BUTTER_2        , O_BUTTER_1        , O_BUTTER_4,          // fix order again
-    /* 34 */              O_BUTTER_3_scanned, O_BUTTER_2_scanned, O_BUTTER_1_scanned, O_BUTTER_4_scanned,  // fix order again
-    /*<-- version3 --*/
+    /* 30 */ O_BUTTER_3, O_BUTTER_2, O_BUTTER_1, O_BUTTER_4, // fix order again
+    /* 34 */ O_BUTTER_3_scanned, O_BUTTER_2_scanned, O_BUTTER_1_scanned, O_BUTTER_4_scanned, // fix order again
     /* 38 */ O_STEEL, O_SLIME, O_BOMB, O_SWEET,
     /* 3c */ O_PRE_STONE_1, O_PRE_STONE_2, O_PRE_STONE_3, O_PRE_STONE_4,
     /* 40 */ O_BLADDER, O_BLADDER_1, O_BLADDER_2, O_BLADDER_3,
@@ -779,7 +765,6 @@ int C64Import::cave_copy_from_bd1(CaveStored &cave, const guint8 *data, int rema
             index += 8;
         } else if (hack == BoulderDashPlus && code == 0xFE) {  /* 0xFE - raster, used in BoulderDash+ */
             /* like above but dont modiy dy, create points instead */
-            int el = data[index + 1];   el=el;   // avoid warning
             int x1 = data[index + 2];
             int y1 = data[index + 3] - 2;
             int nx = data[index + 4];
