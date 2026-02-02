@@ -279,7 +279,7 @@ Setting *gd_get_game_settings_array() {
         { TypePercent, N_("Random UV"), &shader_pal_random_uv, false, NULL, N_("Noise level of colors.") },
         { TypePercent, N_("Scanline shade"), &shader_pal_scanline_shade_luma, false, NULL, N_("Darkened horizontal rows to emulate a TV screen.") },
         { TypePercent, N_("Phosphor shade"), &shader_pal_phosphor_shade, false, NULL, N_("Red, green and blue subpixels of a TV screen can be emulated.") },
-        { TypeBoolean, N_("Force OpenGL Renderer"), &gd_opengl_renderer, true, NULL, N_("If this option is activated, the \"opengl\" renderer is used, otherwise the default renderer. This option may have influence on the frame rate of the game.") },
+        { TypeBoolean, N_("Force OpenGL VSync"), &gd_opengl_renderer, true, NULL, N_("This option enables VSync. The fps is limited to the monitor's frequency (e.g. 60 Hz) to eliminate tearing.") },
 #endif
 
 #ifdef HAVE_GTK

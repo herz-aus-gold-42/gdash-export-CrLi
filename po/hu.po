@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GDash 20130403\n"
 "Report-Msgid-Bugs-To: https://github.com/revvv/gdash-export-CrLi\n"
-"POT-Creation-Date: 2026-02-01 13:54+0100\n"
+"POT-Creation-Date: 2026-02-02 16:33+0100\n"
 "PO-Revision-Date: 2009-11-26 14:06+0100\n"
 "Last-Translator: Czirkos Zoltan\n"
 "Language-Team: Hungarian <>\n"
@@ -5840,24 +5840,24 @@ msgstr "Nem"
 msgid "lowercase-element-names-yes"
 msgstr "lowercase-element-names-yes"
 
-#: src/fileops/c64import.cpp:2163 src/fileops/c64import.cpp:2212
-#: src/fileops/c64import.cpp:2282
+#: src/fileops/c64import.cpp:2148 src/fileops/c64import.cpp:2197
+#: src/fileops/c64import.cpp:2267
 #, c-format
 msgid "Intermission %d"
 msgstr "%d. jutalom pálya"
 
-#: src/fileops/c64import.cpp:2165 src/fileops/c64import.cpp:2214
-#: src/fileops/c64import.cpp:2287
+#: src/fileops/c64import.cpp:2150 src/fileops/c64import.cpp:2199
+#: src/fileops/c64import.cpp:2272
 #, c-format
 msgid "Cave %c"
 msgstr "%c. pálya"
 
-#: src/fileops/c64import.cpp:2280
+#: src/fileops/c64import.cpp:2265
 #, c-format
 msgid "Intermission %02d"
 msgstr "%02d. jutalom pálya"
 
-#: src/fileops/c64import.cpp:2285
+#: src/fileops/c64import.cpp:2270
 #, c-format
 msgid "Cave %02d"
 msgstr "%02d. pálya"
@@ -6677,18 +6677,16 @@ msgstr ""
 "A régi TV képernyők vörös, zöld és kék világító foszforpöttyeinek utánzása."
 
 #: src/settings.cpp:282
-msgid "Force OpenGL Renderer"
-msgstr "OpenGL renderer kényszerítése"
+msgid "Force OpenGL VSync"
+msgstr "OpenGL VSync kényszerítése"
 
 #: src/settings.cpp:282
 msgid ""
-"If this option is activated, the \"opengl\" renderer is used, otherwise the "
-"default renderer. This option may have influence on the frame rate of the "
-"game."
+"This option enables VSync. The fps is limited to the monitor's frequency (e."
+"g. 60 Hz) to eliminate tearing."
 msgstr ""
-"Ha ez az opció be van kapcsolva, akkor az \"opengl\" renderer kerül "
-"használatba, egyébként az alapértelmezett renderer. Ez az opció hatással "
-"lehet a játék képkockasebességére."
+"Ez az opció engedélyezi a VSync-et. Az fps a monitor frekvenciájára van "
+"korlátozva (pl. 60 Hz) a képtörés elkerülése érdekében."
 
 #: src/settings.cpp:286
 msgid "Editor settings"

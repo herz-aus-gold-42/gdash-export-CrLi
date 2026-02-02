@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GDash 20130407\n"
 "Report-Msgid-Bugs-To: https://github.com/revvv/gdash-export-CrLi\n"
-"POT-Creation-Date: 2026-02-01 13:54+0100\n"
+"POT-Creation-Date: 2026-02-02 16:33+0100\n"
 "PO-Revision-Date: 2013-03-15 19:08+0100\n"
 "Last-Translator: Shabanak\n"
 "Language-Team: German\n"
@@ -6118,24 +6118,24 @@ msgstr "Nein"
 msgid "lowercase-element-names-yes"
 msgstr "lowercase-element-names-no"
 
-#: src/fileops/c64import.cpp:2163 src/fileops/c64import.cpp:2212
-#: src/fileops/c64import.cpp:2282
+#: src/fileops/c64import.cpp:2148 src/fileops/c64import.cpp:2197
+#: src/fileops/c64import.cpp:2267
 #, c-format
 msgid "Intermission %d"
 msgstr "Zwischenspiel %d"
 
-#: src/fileops/c64import.cpp:2165 src/fileops/c64import.cpp:2214
-#: src/fileops/c64import.cpp:2287
+#: src/fileops/c64import.cpp:2150 src/fileops/c64import.cpp:2199
+#: src/fileops/c64import.cpp:2272
 #, c-format
 msgid "Cave %c"
 msgstr "Höhle %c"
 
-#: src/fileops/c64import.cpp:2280
+#: src/fileops/c64import.cpp:2265
 #, c-format
 msgid "Intermission %02d"
 msgstr "Zwischenspiel %02d"
 
-#: src/fileops/c64import.cpp:2285
+#: src/fileops/c64import.cpp:2270
 #, c-format
 msgid "Cave %02d"
 msgstr "Höhle %02d"
@@ -6965,18 +6965,16 @@ msgstr ""
 "werden."
 
 #: src/settings.cpp:282
-msgid "Force OpenGL Renderer"
-msgstr "Erzwinge OpenGL Renderer"
+msgid "Force OpenGL VSync"
+msgstr "Erzwinge OpenGL VSync"
 
 #: src/settings.cpp:282
 msgid ""
-"If this option is activated, the \"opengl\" renderer is used, otherwise the "
-"default renderer. This option may have influence on the frame rate of the "
-"game."
+"This option enables VSync. The fps is limited to the monitor's frequency (e."
+"g. 60 Hz) to eliminate tearing."
 msgstr ""
-"Wird diese Option aktiviert, wird der \"opengl\" Renderer benutzt, ansonsten "
-"der Standard-Renderer. Diese Option hat möglicherweise Einfluß auf die "
-"Bildrate des Spiels."
+"Wird diese Option aktiviert, wird VSync eingeschaltet. Die fps werden auf "
+"die Frequenz des Monitors (z.B. 60 Hz) begrenzt, um Tearing zu eliminieren."
 
 #: src/settings.cpp:286
 msgid "Editor settings"
@@ -8219,6 +8217,15 @@ msgstr "Elemente"
 #: src/gfx/pixbuffactory.cpp:40
 msgid "Nearest neighbor"
 msgstr "Nächstgelegener Nachbar"
+
+#~ msgid ""
+#~ "If this option is activated, the \"opengl\" renderer is used, otherwise "
+#~ "the default renderer. This option may have influence on the frame rate of "
+#~ "the game."
+#~ msgstr ""
+#~ "Wird diese Option aktiviert, wird der \"opengl\" Renderer benutzt, "
+#~ "ansonsten der Standard-Renderer. Diese Option hat möglicherweise Einfluß "
+#~ "auf die Bildrate des Spiels."
 
 #~ msgid "Crsr: select   Space: play   H: help"
 #~ msgstr "Kursor:auswählen  Leert:spielen  H:Hilfe"
