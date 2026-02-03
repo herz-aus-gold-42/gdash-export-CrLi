@@ -15,7 +15,7 @@ This fork adds some new features:
 * After completing a cave you can skip the time countdown with F (fast) or ESC [#50](https://github.com/revvv/gdash-export-CrLi/issues/50)<br>
   Very useful if your test cave has time 999.
 * Show complete cave without scrolling [#21](https://github.com/revvv/gdash-export-CrLi/issues/21) [#59](https://github.com/revvv/gdash-export-CrLi/issues/59)
-* You can now activate the OpenGL VSync for super smooth scrolling [#25](https://github.com/revvv/gdash-export-CrLi/issues/25)
+* You can now activate OpenGL VSync for super smooth scrolling [#25](https://github.com/revvv/gdash-export-CrLi/issues/25)
 * Improved snapshot feature for Twitch [#23](https://github.com/revvv/gdash-export-CrLi/issues/23)
 * Show all elements in element statistics [#31](https://github.com/revvv/gdash-export-CrLi/issues/31)
 * New command line argument `--help-localized`
