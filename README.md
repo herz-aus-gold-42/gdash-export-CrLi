@@ -10,12 +10,12 @@ It supports replays, snapshots and has highscore tables.
 This fork adds some new features:
 
 * New command line options for bulk export (*the reason for the fork's name...*)
-* CrLi import/export bug fixed: Butterflies had wrong directions [try 1](https://github.com/revvv/gdash-export-CrLi/commit/f2c9913cfdc84fc8a0e519cf547e35d6d3d70fca) [#96](https://github.com/revvv/gdash-export-CrLi/discussions/96)
+* `*.gds` import bugs fixed: Butterflies had wrong directions [try 1](https://github.com/revvv/gdash-export-CrLi/commit/f2c9913cfdc84fc8a0e519cf547e35d6d3d70fca) [#96](https://github.com/revvv/gdash-export-CrLi/discussions/96)
 * Updated caves, fixed caves, added caves by [renyxadarox](https://github.com/renyxadarox), [Dustin974](https://github.com/Dustin974), [cwscws](https://github.com/cwscws), [thealtermaven](https://github.com/thealtermaven), [herz-aus-gold-42](https://github.com/herz-aus-gold-42)
 * After completing a cave you can skip the time countdown with F (fast) or ESC [#50](https://github.com/revvv/gdash-export-CrLi/issues/50)<br>
   Very useful if your test cave has time 999.
 * Show complete cave without scrolling [#21](https://github.com/revvv/gdash-export-CrLi/issues/21) [#59](https://github.com/revvv/gdash-export-CrLi/issues/59)
-* You can now activate the OpenGL renderer for super smooth scrolling [#25](https://github.com/revvv/gdash-export-CrLi/issues/25)
+* You can now activate the OpenGL VSync for super smooth scrolling [#25](https://github.com/revvv/gdash-export-CrLi/issues/25)
 * Improved snapshot feature for Twitch [#23](https://github.com/revvv/gdash-export-CrLi/issues/23)
 * Show all elements in element statistics [#31](https://github.com/revvv/gdash-export-CrLi/issues/31)
 * New command line argument `--help-localized`
@@ -36,6 +36,8 @@ This fork adds some new features:
 * 64 bit ZIP distribution for **Windows, Linux and Mac**
 * CrLi now also exports teleporters
 * Default game is BD1
+
+### [Download](https://github.com/revvv/gdash-export-CrLi/releases)
 
 ### FAQ
 - Q: Why is there no console output for `gdash --help` on Windows?<br>
@@ -59,9 +61,9 @@ This fork adds some new features:
   A: `.gds` is a binary import from the C64/Atari. `.bd` is the new BDCFF format with many new features.
      However not all elements the 8-Bit community used are yet identified. So it could make sense to keep both until these elements are supported.
      Unknown elements are simply imported as _steel wall_. If you want to play the caves, always prefer the .bd version.
-- Q: I have the feeling that butterflies move in the wrong direction for `.gds` files with header _GDashCRL_?<br>
-  A: GDash-export 1.1, GDash-export >= 1.2 and GDash-export >= 1.10.0 interpret butterfly directions differently.
-     Finally we fixed it. :D [#96](https://github.com/revvv/gdash-export-CrLi/discussions/96)
+- Q: I have the feeling that butterflies move in the wrong direction for `.gds` files with header _GDashCRL_ and _GDash1ST_?<br>
+  A: GDash-export fixed bugs step by step in these versions: 1.2, 1.10.0, 1.10.1, 1.10.2.
+     Finally we did it. :D [#96](https://github.com/revvv/gdash-export-CrLi/discussions/96)
 - Q: Does GDash for cygwin support gamepads?<br>
   A: Yes, but make sure you have the latest version: SDL2-2.28.4-1a (2023-10-06)<br>
      Please check if dinput and xinput gamepads work in GTK3 and SDL mode. Right now all combinations work fine!
