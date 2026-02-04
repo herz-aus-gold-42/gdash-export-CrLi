@@ -198,8 +198,8 @@ GdElementEnum const C64Import::import_table_crdr[0x100] = {
     /* dc */ O_UNKNOWN, O_UNKNOWN, O_UNKNOWN, O_UNKNOWN,
     /* e0 */ O_ALT_FIREFLY_1, O_ALT_FIREFLY_2, O_ALT_FIREFLY_3, O_ALT_FIREFLY_4,
     /* e4 */ O_ALT_FIREFLY_1_scanned, O_ALT_FIREFLY_2_scanned, O_ALT_FIREFLY_3_scanned, O_ALT_FIREFLY_4_scanned,
-    /* e8 */ O_ALT_BUTTER_3, O_ALT_BUTTER_4, O_ALT_BUTTER_1, O_ALT_BUTTER_2,
-    /* ec */ O_ALT_BUTTER_3_scanned, O_ALT_BUTTER_4_scanned, O_ALT_BUTTER_1_scanned, O_ALT_BUTTER_2_scanned,
+    /* e8 */ O_ALT_BUTTER_3, O_ALT_BUTTER_2, O_ALT_BUTTER_1, O_ALT_BUTTER_4, // fix order
+    /* ec */ O_ALT_BUTTER_3_scanned, O_ALT_BUTTER_2_scanned, O_ALT_BUTTER_1_scanned, O_ALT_BUTTER_4_scanned, // fix order
     /* f0 */ O_WATER, O_WATER, O_WATER, O_WATER,
     /* f4 */ O_WATER, O_WATER, O_WATER, O_WATER,
     /* f8 */ O_WATER, O_WATER, O_WATER, O_WATER,
