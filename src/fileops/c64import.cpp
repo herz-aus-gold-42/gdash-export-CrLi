@@ -1035,6 +1035,13 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
                 index += 3 + n;
             }
             break;
+            case 0xFE: /* profi boulder extension: reload #$E0 bytes */
+                // e.g. profi89 caveB 
+                // simply skip this command // C64 read next $E0 bytes
+                gd_debug("pos=%4.4x command 0xFE ", index);   // profi89 - cave B  // 0x8B7C // cave.name is context
+                index += 1;
+                break;
+
             case 0x08 :
                 if(hack == BoulderDashCaduta) {
                     int amount = data[index + 1];

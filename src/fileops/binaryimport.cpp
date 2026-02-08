@@ -702,6 +702,12 @@ static bool try_bd2(std::vector<unsigned char> const &memory, bool atari) {
                     for (n = 0; n < 40 * (22 - 2) / 2; n++) /* 40*20 caves, upper and lower row not contained, 1byte/2 elements */
                         out[outpos++] = memory[mappos + n];
                     break;
+                case 0xFE: /* profi boulder extension: reload #$E0 bytes */
+                    // e.g. profi89 caveB 
+                    // simply skip this command // C64 read next $E0 bytes
+                    gd_debug("pos=%4.4x command 0xFE for cave %d", pos, i+1);   // profi89 - cave B  // 0x8B7C
+                    break;
+
                 default:
                     if (uns[j] == 0) {
                         /* not seen this extension previously */
