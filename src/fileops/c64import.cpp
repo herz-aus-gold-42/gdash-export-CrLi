@@ -798,6 +798,7 @@ int C64Import::cave_copy_from_bd1(CaveStored &cave, const guint8 *data, int rema
                 case 1: {
                     /* 01: LINE */
                     Coordinate p1(data[index + 1], data[index + 2] - 2);
+                    int implen = (gint8) data[index + 3];
                     int length = (gint8) data[index + 3] - 1;
                     int direction = data[index + 4];
                     if (length >= 0) {
@@ -810,7 +811,11 @@ int C64Import::cave_copy_from_bd1(CaveStored &cave, const guint8 *data, int rema
                         // if (object.x1>=cave.w || object.y1>=cave.h || object.x2>=cave.w || object.y2>=cave.h)
                         //  gd_warning("invalid line coordinates %d,%d %d,%d at byte %d", object.x1, object.y1, object.x2, object.y2, index);
                     } else {
-                        gd_warning("line length negative, not displaying line at all, at byte %d", index);
+                        if (implen == 0) {
+                            gd_warning("line length zero %d dir %d, not displaying line at all, at byte %d", implen, direction, index);
+                        } else {
+                            gd_warning("line length negative %d dir %d, not displaying line at all, at byte %d", implen, direction, index);
+                        }
                     }
                     index += 5;
                 }
@@ -1035,6 +1040,13 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
                 index += 3 + n;
             }
             break;
+            case 0xFE: /* profi boulder extension: reload #$E0 bytes */
+                // e.g. profi89 caveB
+                // simply skip this command // C64 read next $E0 bytes
+                gd_debug("pos=%4.4x command 0xFE ", index);   // profi89 - cave B  // 0x8B7C // cave.name is context
+                index += 1;
+                break;
+
             case 0x08 :
                 if(hack == BoulderDashCaduta) {
                     int amount = data[index + 1];
