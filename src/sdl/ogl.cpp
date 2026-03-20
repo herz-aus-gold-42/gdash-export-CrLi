@@ -374,7 +374,7 @@ void SDLOGLScreen::configure_size() {
 
     if (gd_param_debug)
         log_OpenGL_flags(window.get());
-    if (gd_opengl_renderer)
+    if (gd_opengl_vsync)
         create_opengl_renderer(window.get());
 
     /* do not show mouse cursor */

@@ -6,7 +6,7 @@ Name=Boulderdash X
 Levels=5
 
 [cave]
-Name=Cave A
+Name=A
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -41,7 +41,7 @@ Point=36 3 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave B
+Name=B
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -87,7 +87,7 @@ Point=35 16 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave C
+Name=C
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -120,7 +120,7 @@ Point=15 8 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave D
+Name=D
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -197,7 +197,7 @@ Line=15 3 8 10 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave E
+Name=E
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -247,7 +247,7 @@ Point=20 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave F
+Name=F
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -302,7 +302,7 @@ Line=3 9 9 9 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave G
+Name=G
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -343,7 +343,7 @@ Point=19 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave H
+Name=H
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -429,7 +429,7 @@ Point=18 10 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave I
+Name=I
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -467,7 +467,7 @@ Point=39 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave J
+Name=J
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -516,7 +516,7 @@ Point=24 5 STEELWALL
 [/cave]
 
 [cave]
-Name=Cave K
+Name=K
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -564,7 +564,7 @@ Point=2 6 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave L
+Name=L
 Description=Fixed for GDash: "Scan first and last line" disabled, inbox moved one tile up
 Selectable=false
 IntermissionProperties.instantlife=true
@@ -654,7 +654,7 @@ Point=2 2 INBOX
 [/cave]
 
 [cave]
-Name=Cave M
+Name=M
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -688,7 +688,7 @@ Point=38 6 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave N
+Name=N
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -732,7 +732,7 @@ Point=38 13 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave O
+Name=O
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -770,7 +770,7 @@ Point=30 9 AMOEBA
 [/cave]
 
 [cave]
-Name=Cave P
+Name=P
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false

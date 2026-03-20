@@ -9,7 +9,7 @@ TitleScreenScroll=iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfA
 Levels=5
 
 [cave]
-Name=Cave 01
+Name=01
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -61,7 +61,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 02
+Name=02
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -114,7 +114,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 03
+Name=03
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -167,7 +167,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 04
+Name=04
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -272,7 +272,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 06
+Name=06
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -323,7 +323,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 07
+Name=07
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -375,7 +375,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 08
+Name=08
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -427,7 +427,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 09
+Name=09
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -532,7 +532,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 11
+Name=11
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -583,7 +583,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 12
+Name=12
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -636,7 +636,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 13
+Name=13
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -688,7 +688,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 14
+Name=14
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -792,7 +792,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 16
+Name=16
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -843,7 +843,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 17
+Name=17
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -895,7 +895,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 18
+Name=18
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -947,7 +947,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 19
+Name=19
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1051,7 +1051,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 21
+Name=21
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1102,7 +1102,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 22
+Name=22
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1154,7 +1154,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 23
+Name=23
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1206,7 +1206,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 24
+Name=24
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1310,7 +1310,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 26
+Name=26
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1361,7 +1361,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 27
+Name=27
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1413,7 +1413,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 28
+Name=28
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1465,7 +1465,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 29
+Name=29
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1571,7 +1571,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 31
+Name=31
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1622,7 +1622,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 32
+Name=32
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1674,7 +1674,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 33
+Name=33
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1726,7 +1726,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 34
+Name=34
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1830,7 +1830,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 36
+Name=36
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1881,7 +1881,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 37
+Name=37
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1933,7 +1933,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 38
+Name=38
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -1985,7 +1985,7 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 [/cave]
 
 [cave]
-Name=Cave 39
+Name=39
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false

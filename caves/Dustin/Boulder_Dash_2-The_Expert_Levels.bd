@@ -8,7 +8,7 @@ WWW=http://www.boulder-dash.com/
 Levels=5
 
 [cave]
-Name=Cave A. Intro
+Name=A. Intro
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -59,7 +59,7 @@ Point=5 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave B. Silos
+Name=B. Silos
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -105,7 +105,7 @@ Point=38 16 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave C. Spiral
+Name=C. Spiral
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -144,7 +144,7 @@ Point=18 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave D. Breakthrough
+Name=D. Breakthrough
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -220,7 +220,7 @@ Point=2 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave E. Shower
+Name=E. Shower
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -257,7 +257,7 @@ Point=35 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave F. Gauntlet
+Name=F. Gauntlet
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -301,7 +301,7 @@ Raster=6 7 1 3 1 6 FIREFLYr
 [/cave]
 
 [cave]
-Name=Cave G. Jail
+Name=G. Jail
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -341,7 +341,7 @@ Point=12 11 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave H. Ring Around The Rosy
+Name=H. Ring Around The Rosy
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -419,7 +419,7 @@ Point=18 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave I. Fast Tricks
+Name=I. Fast Tricks
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -462,7 +462,7 @@ Point=38 13 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave J. Mixed Doubles
+Name=J. Mixed Doubles
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -498,7 +498,7 @@ Point=30 15 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave K. Snake
+Name=K. Snake
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -538,7 +538,7 @@ Point=35 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave L. Gridlock
+Name=L. Gridlock
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -614,7 +614,7 @@ Point=18 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave M. Combination
+Name=M. Combination
 Intermission=false
 IntermissionProperties.instantlife=true
 IntermissionProperties.rewardlife=false
@@ -651,7 +651,7 @@ Point=2 13 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave N. Tree
+Name=N. Tree
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -690,7 +690,7 @@ Point=20 19 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave O. Cocoons
+Name=O. Cocoons
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true
@@ -743,7 +743,7 @@ Point=38 3 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave P. Spelunking
+Name=P. Spelunking
 Selectable=false
 Intermission=false
 IntermissionProperties.instantlife=true

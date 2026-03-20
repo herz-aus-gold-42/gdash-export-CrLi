@@ -94,7 +94,7 @@ Point=38 16 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 1-1: Snake 4 Xperts
+Name=1-1: Snake 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -134,7 +134,7 @@ Point=35 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 1-2: Gauntlet 4 Xperts
+Name=1-2: Gauntlet 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -179,7 +179,7 @@ Raster=6 7 1 3 1 6 FIREFLYr
 [/cave]
 
 [cave]
-Name=Cave 1-3: Jail 4 Xperts
+Name=1-3: Jail 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -220,7 +220,7 @@ Point=12 11 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 1-4: Tracks 4 Xperts
+Name=1-4: Tracks 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -267,7 +267,7 @@ Line=4 14 4 17 DIAMOND
 [/cave]
 
 [cave]
-Name=Cave 1-5: Mixed Doubles 4 Xperts
+Name=1-5: Mixed Doubles 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -343,7 +343,7 @@ Point=18 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 2-1: Breakthrough 4 Xperts
+Name=2-1: Breakthrough 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -385,7 +385,7 @@ Point=1 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 2-2: Ring 4 Xperts
+Name=2-2: Ring 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -424,7 +424,7 @@ Point=19 4 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 2-3: Cocoons 4 Xperts
+Name=2-3: Cocoons 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -479,7 +479,7 @@ Point=38 3 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 2-4: Intro 4 Xperts
+Name=2-4: Intro 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -531,7 +531,7 @@ Point=5 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 2-5: Funnel 4 Xperts
+Name=2-5: Funnel 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -614,7 +614,7 @@ Point=38 16 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 3-1: Amoeba 4 Xperts
+Name=3-1: Amoeba 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -657,7 +657,7 @@ Point=39 5 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 3-2: Enchanted wall 4 Xperts
+Name=3-2: Enchanted wall 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -702,7 +702,7 @@ Line=14 13 21 13 DIRT
 [/cave]
 
 [cave]
-Name=Cave 3-3: Enxhanted boxes 4 Xperts
+Name=3-3: Enxhanted boxes 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -747,7 +747,7 @@ Point=34 18 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave 3-4: Zigzag 4 Xperts
+Name=3-4: Zigzag 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -790,7 +790,7 @@ Point=39 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 3-5: Apocalypse 4 Xperts
+Name=3-5: Apocalypse 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -864,7 +864,7 @@ Point=9 8 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 4-1: Greed 4 Xperts
+Name=4-1: Greed 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -903,7 +903,7 @@ Point=8 10 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 4-2: Spelunking 4 Xperts
+Name=4-2: Spelunking 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -937,7 +937,7 @@ Point=20 11 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 4-3: Shower 4 Xperts
+Name=4-3: Shower 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -975,7 +975,7 @@ Point=35 18 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 4-4: Combination 4 Xperts
+Name=4-4: Combination 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1014,7 +1014,7 @@ Point=2 13 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 4-5: Silos 4 Xperts (again!)
+Name=4-5: Silos 4 Xperts (again!)
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1108,7 +1108,7 @@ Point=13 10 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave 5-1: Fort Knox 4 Xperts
+Name=5-1: Fort Knox 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1152,7 +1152,7 @@ Point=4 21 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 5-2: The frontier 4 Xperts
+Name=5-2: The frontier 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1190,7 +1190,7 @@ Point=39 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 5-3: Transform 4 Xperts
+Name=5-3: Transform 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1225,7 +1225,7 @@ Point=5 3 INBOX
 [/cave]
 
 [cave]
-Name=Cave 5-4: Eazy 4 Xperts
+Name=5-4: Eazy 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -1263,7 +1263,7 @@ Point=2 21 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave 5-5: Maze2 4 Xperts
+Name=5-5: Maze2 4 Xperts
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false

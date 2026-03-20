@@ -49,6 +49,15 @@ extern bool gd_show_story;
 extern bool gd_show_name_of_game;
 extern int gd_status_bar_colors;
 extern bool gd_alternate_vertical_animation;
+extern int gd_startup_cave;
+enum GdStartupCaveType {
+    GD_STARTUP_CAVE_BD1,
+    GD_STARTUP_CAVE_BD2,
+    GD_STARTUP_CAVE_BD3,
+    GD_STARTUP_CAVE_BD4,
+    GD_STARTUP_CAVE_LAST,
+};
+extern std::string gd_last_cave_file;
 
 /* palette settings */
 extern int gd_c64_palette;
@@ -143,7 +152,7 @@ extern int shader_pal_random_uv;
 extern int shader_pal_luma_x_blur;
 extern int shader_pal_chroma_x_blur;
 extern int shader_pal_chroma_y_blur;
-extern bool gd_opengl_renderer;
+extern bool gd_opengl_vsync;
 #endif    /* if gd_sound */
 
 

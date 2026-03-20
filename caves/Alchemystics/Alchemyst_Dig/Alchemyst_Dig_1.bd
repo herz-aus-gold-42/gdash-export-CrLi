@@ -12,7 +12,7 @@ TitleScreen=iVBORw0KGgoAAAANSUhEUgAAAUAAAACwCAYAAAB+dbcHAAAABHNCSVQICAgIfAhkiAAA
 Levels=5
 
 [cave]
-Name=CAVE 1
+Name=1
 Description=Swirl
 Author=Alchemysics
 Date=2021-04-02
@@ -51,7 +51,7 @@ Line=17 8 27 8 WALL
 [/cave]
 
 [cave]
-Name=CAVE 2
+Name=2
 Description=Transmutation
 Author=Alchemystics
 Date=2021-04-02
@@ -124,7 +124,7 @@ Point=31 13 FIREFLYl
 [/cave]
 
 [cave]
-Name=CAVE 3
+Name=3
 Description=Rockslide
 Author=Alchemystics
 Date=2021-04-02
@@ -157,7 +157,7 @@ Line=39 20 39 20 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 4
+Name=4
 Description=Plankton
 Author=Alchemystics
 Date=2021-04-02
@@ -226,7 +226,7 @@ Rectangle=1 8 1 8 BUTTERFLYd
 [/cave]
 
 [cave]
-Name=CAVE 5
+Name=5
 Description=Evade
 Author=Alchemystics
 Date=2021-04-02
@@ -257,7 +257,7 @@ Point=12 13 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 6
+Name=6
 Description=Magician
 Author=Alchemystics
 Date=2021-04-02
@@ -290,7 +290,7 @@ Line=1 20 1 20 AMOEBA
 [/cave]
 
 [cave]
-Name=CAVE 7
+Name=7
 Description=Sifter
 Author=Alchemystics
 Date=2021-04-02
@@ -330,7 +330,7 @@ Line=4 13 35 13 SLIME
 [/cave]
 
 [cave]
-Name=CAVE 8
+Name=8
 Description=Glitter
 Author=Alchemystics
 Date=2021-04-02
@@ -412,7 +412,7 @@ Line=4 11 15 11 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 9
+Name=9
 Description=Extract
 Author=Alchemystics
 Date=2021-04-02
@@ -493,7 +493,7 @@ Line=10 9 10 2 DIRT
 [/cave]
 
 [cave]
-Name=CAVE 10
+Name=10
 Description=Hazard
 Author=Alchemystics
 Date=2021-04-02
@@ -526,7 +526,7 @@ Point=39 8 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 11
+Name=11
 Description=There and Here
 Author=Alchemystics
 Date=2021-04-02
@@ -559,7 +559,7 @@ Line=1 21 1 21 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 12
+Name=12
 Description=Destroy
 Author=Alchemystics
 Date=2021-04-02
@@ -691,7 +691,7 @@ Line=19 1 19 10 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 13
+Name=13
 Description=Smite
 Author=Alchemystics
 Date=2021-04-02
@@ -751,7 +751,7 @@ Line=2 17 38 17 HIDDENOUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 14
+Name=14
 Description=Drei
 Author=Alchemystics
 Date=2021-04-02
@@ -787,7 +787,7 @@ Point=39 20 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 15
+Name=15
 Description=Shatter
 Author=Alcehmystics
 Date=2021-04-02
@@ -840,7 +840,7 @@ FillRect=2 19 36 20 DIRT
 [/cave]
 
 [cave]
-Name=CAVE 16
+Name=16
 Description=Leakage
 Author=Alchemystics
 Date=2021-04-02
@@ -928,7 +928,7 @@ Point=18 4 WALL
 [/cave]
 
 [cave]
-Name=CAVE 17
+Name=17
 Description=Heat
 Author=Alchemystics
 Date=2021-04-10
@@ -992,7 +992,7 @@ Point=1 20 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 18
+Name=18
 Description=Magic Boxes
 Author=Alchemystics
 Date=2021-04-10
@@ -1056,7 +1056,7 @@ Point=26 10 BOULDER
 [/cave]
 
 [cave]
-Name=CAVE 19
+Name=19
 Description=Hallucination
 Author=Alchemystics
 Date=2021-04-10
@@ -1090,7 +1090,7 @@ Point=1 20 INBOX
 [/cave]
 
 [cave]
-Name=CAVE 20
+Name=20
 Description=Battery
 Author=Alchemystics
 Date=2021-04-10
@@ -1204,7 +1204,7 @@ Point=15 4 WALL
 [/cave]
 
 [cave]
-Name=CAVE 21
+Name=21
 Description=Peril
 Author=Alchemystics
 Date=2021-04-10
@@ -1231,7 +1231,7 @@ Point=39 14 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 22
+Name=22
 Description=Siphon
 Author=Alchemystics
 Date=2021-04-10
@@ -1264,7 +1264,7 @@ Point=39 20 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 23
+Name=23
 Description=Water Guard
 Author=Alchemystics
 Date=2021-04-10
@@ -1369,7 +1369,7 @@ Point=34 18 FIREFLYl
 [/cave]
 
 [cave]
-Name=CAVE 24
+Name=24
 Description=Crossway
 Author=Alchemystics
 Date=2021-04-10
@@ -1424,7 +1424,7 @@ Point=21 20 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 25
+Name=25
 Description=Falling
 Author=Alchemystics
 Date=2021-04-10
@@ -1466,7 +1466,7 @@ Line=20 6 21 6 OUTBOX
 [/cave]
 
 [cave]
-Name=CAVE 26
+Name=26
 Description=Goodplay
 Author=Alchemystics
 Date=2021-04-10

@@ -6,7 +6,7 @@ Name=Frusti Dash
 Levels=5
 
 [cave]
-Name=Cave A
+Name=A
 Description=Fixed for GDash: "Scan first and last row" disabled
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -44,7 +44,7 @@ Point=15 12 BOULDER
 [/cave]
 
 [cave]
-Name=Cave B
+Name=B
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -80,7 +80,7 @@ Point=37 21 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave C
+Name=C
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -114,7 +114,7 @@ Point=2 1 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave D
+Name=D
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -184,7 +184,7 @@ Point=18 1 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave E
+Name=E
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -219,7 +219,7 @@ Line=9 19 11 19 FIREFLYl
 [/cave]
 
 [cave]
-Name=Cave F
+Name=F
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -255,7 +255,7 @@ Line=1 20 38 20 BUTTERFLYd
 [/cave]
 
 [cave]
-Name=Cave G
+Name=G
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -289,7 +289,7 @@ Point=38 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave H
+Name=H
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -361,7 +361,7 @@ Rectangle=0 0 19 11 STEELWALL
 [/cave]
 
 [cave]
-Name=Cave I
+Name=I
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -414,7 +414,7 @@ Point=1 1 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave J
+Name=J
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -448,7 +448,7 @@ Point=1 1 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave K
+Name=K
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -483,7 +483,7 @@ Point=1 1 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave L
+Name=L
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -553,7 +553,7 @@ Point=18 11 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave M
+Name=M
 IntermissionProperties.instantlife=true
 Intermission=false
 IntermissionProperties.rewardlife=false
@@ -587,7 +587,7 @@ Point=1 1 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave N
+Name=N
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -624,7 +624,7 @@ Point=38 20 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave O
+Name=O
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false
@@ -658,7 +658,7 @@ Point=0 2 OUTBOX
 [/cave]
 
 [cave]
-Name=Cave P
+Name=P
 Selectable=false
 IntermissionProperties.instantlife=true
 Intermission=false

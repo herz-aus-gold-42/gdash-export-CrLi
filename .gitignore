@@ -1,23 +1,36 @@
 autom4te.cache
 build/*
-
 # after ".configure"
-# Makefile
+Makefile
+Makefile.in
 caves/Makefile
+caves/Makefile.in
 config.h
 config.log
 config.status
 docs/Makefile
+docs/Makefile.in
+docs/*.html
+docs/*.png
+docs/style.css
 include/.deps/
 include/Makefile
+include/Makefile.in
 music/Makefile
+music/Makefile.in
 po/Makefile
 po/Makefile.in
 po/POTFILES
+po/de.gmo
+po/gdash.pot
+po/hu.gmo
+po/remove-potcdate.sed
 shaders/Makefile
+shaders/Makefile.in
 sound/Makefile
 src/.deps/
-#src/Makefile
+src/Makefile
+src/Makefile.in
 src/cave/.deps/
 src/cave/helper/.deps/
 src/cave/object/.deps/
@@ -37,36 +50,6 @@ include/files2c-files2c.o
 include/files2c.exe
 src/**/*.o
 src/**/*.dirstamp
-#
-# after "make" (modified)  ### restore them
-Makefile.in
-caves/Makefile.in
-docs/Makefile.in
-include/Makefile.in
-music/Makefile.in
-shaders/Makefile.in
-sound/Makefile.in
-src/Makefile.in
-aclocal.m4
-configure
-include/gdash_icon_32.cpp
-include/gdash_icon_48.cpp
-include/gamebackground.cpp
-#
-# after "make" (modified)
-# git restore Makefile.in
-# git restore caves/Makefile.in
-# git restore docs/Makefile.in
-# git restore include/Makefile.in
-# git restore music/Makefile.in
-# git restore shaders/Makefile.in
-# git restore sound/Makefile.in
-# git restore src/Makefile.in
-# git restore aclocal.m4
-# git restore configure
-# git restore include/gdash_icon_32.cpp
-# git restore include/gdash_icon_48.cpp
-# git restore include/gamebackground.cpp
 #
 # edit with visual studio
 /.vs/gdash-export-Crli/

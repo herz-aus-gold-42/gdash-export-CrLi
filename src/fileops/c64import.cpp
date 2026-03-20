@@ -115,8 +115,8 @@ GdElementEnum const C64Import::import_table_1stb[0x80] = {
     /* 24 */ O_PRE_DIA_5, O_INBOX, O_PRE_PL_1, O_PRE_PL_2,
     /* 28 */ O_PRE_PL_3, O_CLOCK, O_H_EXPANDING_WALL, O_H_EXPANDING_WALL_scanned,   /* CLOCK: not mentioned in marek's bd inside faq */
     /* 2c */ O_CREATURE_SWITCH, O_CREATURE_SWITCH, O_EXPANDING_WALL_SWITCH, O_EXPANDING_WALL_SWITCH,
-    /* 30 */ O_BUTTER_3, O_BUTTER_4, O_BUTTER_1, O_BUTTER_2,
-    /* 34 */ O_BUTTER_3_scanned, O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned,
+    /* 30 */ O_BUTTER_3, O_BUTTER_2, O_BUTTER_1, O_BUTTER_4, // fix order
+    /* 34 */ O_BUTTER_3_scanned, O_BUTTER_2_scanned, O_BUTTER_1_scanned, O_BUTTER_4_scanned, // fix order
     /* 38 */ O_STEEL, O_SLIME, O_BOMB, O_SWEET,
     /* 3c */ O_PRE_STONE_1, O_PRE_STONE_2, O_PRE_STONE_3, O_PRE_STONE_4,
     /* 40 */ O_BLADDER, O_BLADDER_1, O_BLADDER_2, O_BLADDER_3,
@@ -151,8 +151,8 @@ GdElementEnum const C64Import::import_table_crdr[0x100] = {
     /* 24 */ O_PRE_DIA_5, O_INBOX, O_PRE_PL_1, O_PRE_PL_2,
     /* 28 */ O_PRE_PL_3, O_CLOCK, O_H_EXPANDING_WALL, O_H_EXPANDING_WALL_scanned,   /* CLOCK: not mentioned in marek's bd inside faq */
     /* 2c */ O_CREATURE_SWITCH, O_CREATURE_SWITCH, O_EXPANDING_WALL_SWITCH, O_EXPANDING_WALL_SWITCH,
-    /* 30 */ O_BUTTER_3, O_BUTTER_4, O_BUTTER_1, O_BUTTER_2,
-    /* 34 */ O_BUTTER_3_scanned, O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned,
+    /* 30 */ O_BUTTER_3, O_BUTTER_2, O_BUTTER_1, O_BUTTER_4, // fix order
+    /* 34 */ O_BUTTER_3_scanned, O_BUTTER_2_scanned, O_BUTTER_1_scanned, O_BUTTER_4_scanned, // fix order
     /* 38 */ O_STEEL, O_SLIME, O_BOMB, O_SWEET,
     /* 3c */ O_PRE_STONE_1, O_PRE_STONE_2, O_PRE_STONE_3, O_PRE_STONE_4,
     /* 40 */ O_BLADDER, O_BLADDER_1, O_BLADDER_2, O_BLADDER_3,
@@ -198,15 +198,15 @@ GdElementEnum const C64Import::import_table_crdr[0x100] = {
     /* dc */ O_UNKNOWN, O_UNKNOWN, O_UNKNOWN, O_UNKNOWN,
     /* e0 */ O_ALT_FIREFLY_1, O_ALT_FIREFLY_2, O_ALT_FIREFLY_3, O_ALT_FIREFLY_4,
     /* e4 */ O_ALT_FIREFLY_1_scanned, O_ALT_FIREFLY_2_scanned, O_ALT_FIREFLY_3_scanned, O_ALT_FIREFLY_4_scanned,
-    /* e8 */ O_ALT_BUTTER_3, O_ALT_BUTTER_4, O_ALT_BUTTER_1, O_ALT_BUTTER_2,
-    /* ec */ O_ALT_BUTTER_3_scanned, O_ALT_BUTTER_4_scanned, O_ALT_BUTTER_1_scanned, O_ALT_BUTTER_2_scanned,
+    /* e8 */ O_ALT_BUTTER_3, O_ALT_BUTTER_2, O_ALT_BUTTER_1, O_ALT_BUTTER_4, // fix order
+    /* ec */ O_ALT_BUTTER_3_scanned, O_ALT_BUTTER_2_scanned, O_ALT_BUTTER_1_scanned, O_ALT_BUTTER_4_scanned, // fix order
     /* f0 */ O_WATER, O_WATER, O_WATER, O_WATER,
     /* f4 */ O_WATER, O_WATER, O_WATER, O_WATER,
     /* f8 */ O_WATER, O_WATER, O_WATER, O_WATER,
     /* fc */ O_WATER, O_WATER, O_WATER, O_WATER,
 };
 
-/// conversion table for imported 1stb caves.
+/// conversion table for imported CrLi caves.
 /// @todo check O_PRE_DIA_0 and O_EXPLODE_0
 GdElementEnum const C64Import::import_table_crli[0x80] = {
     /*  0 */ O_SPACE, O_DIRT, O_BRICK, O_MAGIC_WALL,
@@ -221,18 +221,8 @@ GdElementEnum const C64Import::import_table_crli[0x80] = {
     /* 24 */ O_PRE_DIA_5, O_INBOX, O_PRE_PL_1, O_PRE_PL_2,
     /* 28 */ O_PRE_PL_3, O_CLOCK, O_H_EXPANDING_WALL, O_H_EXPANDING_WALL_scanned,   /* CLOCK: not mentioned in marek's bd inside faq */
     /* 2c */ O_CREATURE_SWITCH, O_CREATURE_SWITCH, O_EXPANDING_WALL_SWITCH, O_EXPANDING_WALL_SWITCH,
-    /*-- version1 -->*/
-    // 30 // O_BUTTER_3, O_BUTTER_4, O_BUTTER_1, O_BUTTER_2,
-    // 34 // O_BUTTER_3_scanned, O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned,
-    /*<-- version1 --*/
-    /*-- version2 -->*/
-    // 30 // O_BUTTER_4, O_BUTTER_1, O_BUTTER_2, O_BUTTER_3, // fix order
-    // 34 // O_BUTTER_4_scanned, O_BUTTER_1_scanned, O_BUTTER_2_scanned, O_BUTTER_3_scanned, // fix order
-    /*<-- version2 --*/
-    /*-- version3 -->*/// (right "B")      // (up "b")         // (left "C")       // (down "c")
-    /* 30 */              O_BUTTER_3        , O_BUTTER_2        , O_BUTTER_1        , O_BUTTER_4,          // fix order again
-    /* 34 */              O_BUTTER_3_scanned, O_BUTTER_2_scanned, O_BUTTER_1_scanned, O_BUTTER_4_scanned,  // fix order again
-    /*<-- version3 --*/
+    /* 30 */ O_BUTTER_3, O_BUTTER_2, O_BUTTER_1, O_BUTTER_4, // fix order again
+    /* 34 */ O_BUTTER_3_scanned, O_BUTTER_2_scanned, O_BUTTER_1_scanned, O_BUTTER_4_scanned, // fix order again
     /* 38 */ O_STEEL, O_SLIME, O_BOMB, O_SWEET,
     /* 3c */ O_PRE_STONE_1, O_PRE_STONE_2, O_PRE_STONE_3, O_PRE_STONE_4,
     /* 40 */ O_BLADDER, O_BLADDER_1, O_BLADDER_2, O_BLADDER_3,
@@ -775,7 +765,6 @@ int C64Import::cave_copy_from_bd1(CaveStored &cave, const guint8 *data, int rema
             index += 8;
         } else if (hack == BoulderDashPlus && code == 0xFE) {  /* 0xFE - raster, used in BoulderDash+ */
             /* like above but dont modiy dy, create points instead */
-            int el = data[index + 1];   el=el;   // avoid warning
             int x1 = data[index + 2];
             int y1 = data[index + 3] - 2;
             int nx = data[index + 4];
@@ -809,6 +798,7 @@ int C64Import::cave_copy_from_bd1(CaveStored &cave, const guint8 *data, int rema
                 case 1: {
                     /* 01: LINE */
                     Coordinate p1(data[index + 1], data[index + 2] - 2);
+                    int implen = (gint8) data[index + 3];
                     int length = (gint8) data[index + 3] - 1;
                     int direction = data[index + 4];
                     if (length >= 0) {
@@ -821,7 +811,11 @@ int C64Import::cave_copy_from_bd1(CaveStored &cave, const guint8 *data, int rema
                         // if (object.x1>=cave.w || object.y1>=cave.h || object.x2>=cave.w || object.y2>=cave.h)
                         //  gd_warning("invalid line coordinates %d,%d %d,%d at byte %d", object.x1, object.y1, object.x2, object.y2, index);
                     } else {
-                        gd_warning("line length negative, not displaying line at all, at byte %d", index);
+                        if (implen == 0) {
+                            gd_warning("line length zero %d dir %d, not displaying line at all, at byte %d", implen, direction, index);
+                        } else {
+                            gd_warning("line length negative %d dir %d, not displaying line at all, at byte %d", implen, direction, index);
+                        }
                     }
                     index += 5;
                 }
@@ -1046,6 +1040,13 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
                 index += 3 + n;
             }
             break;
+            case 0xFE: /* profi boulder extension: reload #$E0 bytes */
+                // e.g. profi89 caveB
+                // simply skip this command // C64 read next $E0 bytes
+                gd_debug("pos=%4.4x command 0xFE ", index);   // profi89 - cave B  // 0x8B7C // cave.name is context
+                index += 1;
+                break;
+
             case 0x08 :
                 if(hack == BoulderDashCaduta) {
                     int amount = data[index + 1];
@@ -1053,7 +1054,7 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
                     int y   = data[index + 2];
                     // int lsb = data[index + 4];  // only for completeness
                     // int msb = data[index + 5];  // only for completeness
-                    // data start after 
+                    // data start after
                     int didx = index + 6;
                     int ppos = y * 40 + x;
                     int x1   = 0;
@@ -1113,7 +1114,7 @@ int C64Import::cave_copy_from_bd2(CaveStored &cave, const guint8 *data, int rema
     index++;    /* animation byte - told the engine which objects to animate - to make game faster */
 
     /* the colors from the memory dump are appended here */
-    if (format == GD_FORMAT_BD2) {  // hack == BoulderDashCaduta 
+    if (format == GD_FORMAT_BD2) {  // hack == BoulderDashCaduta
         /* c64 colors */
         cave.colorb = GdColor::from_c64(0); /* always black */
         cave.color0 = GdColor::from_c64(0); /* always black */

@@ -1,6 +1,4 @@
 ## Process this file with automake to produce Makefile.in
-CAVES = \
-	Afl_Posocopi.gds
 
 ATARIPALETTES = \
 	BuiltIn.act \
@@ -70,7 +68,6 @@ noinst_HEADERS = \
 	gamebackground.cpp \
 	gdash_icon_32.cpp \
 	gdash_icon_48.cpp \
-	levels.cpp \
 	ataripal.cpp \
 	dtvpal.cpp \
 	for_html.cpp
@@ -84,7 +81,6 @@ EXTRA_DIST = $(ICONS) $(TITLE) $(GAMEBACKGROUND) $(FOR_HTML) \
 	$(GDASH_ICON_32) \
 	$(GDASH_ICON_48) \
 	$(pkgdata_DATA) \
-	$(CAVES) \
 	$(ATARIPALETTES) \
 	$(DTVPALETTES)
 
@@ -109,10 +105,6 @@ files2c_CPPFLAGS = -g -Wall -std=c++14
 files2c_LDFLAGS = -g -Wall
 files2c_SOURCES = \
 	files2c.cpp
-
-levels.cpp: $(CAVES)
-	make files2c$(EXEEXT)
-	./files2c level $^ > $@
 
 ataripal.cpp: $(ATARIPALETTES)
 	make files2c$(EXEEXT)

@@ -49,15 +49,19 @@ const char *About::license =
         "WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     );
 
-const char *About::artists[] = { "CWS",
+const char *About::artists[] = { "CWS https://github.com/cwscws",
                                  0
                                };
 
 const char *About::authors[] = { "Czirkos Zoltan <czirkos.zoltan@gmail.com>",
+                                 "revvv https://github.com/revvv",
+                                 "CWS https://github.com/cwscws",
+                                 "renyxadarox https://github.com/renyxadarox",
+                                 "Dustin974 https://github.com/Dustin974",
+                                 "thealtermaven https://github.com/thealtermaven",
+                                 "herz-aus-gold-42 https://github.com/herz-aus-gold-42",
                                  "Scale2x: Andrea Mazzoleni",
                                  "hqx: Maxim Stepin, Cameron Zemek",
-                                 "specifications/test: CWS",
-                                 "misc: revvv",
 #ifdef HAVE_SDL
                                  "SDL: Sam Lantinga <slouken@libsdl.org>",
                                  "SDL png saver: Philip D. Bober <wildfire1138@mchsi.com>",
@@ -79,6 +83,6 @@ const char *About::comments =
 
 const char *About::translator_credits = N_("translator-credits");
 
-const char *About::copyright = "Copyright 2007-2023, GDash Project";
+const char *About::copyright = "Copyright 2007-2026, GDash Project";
 
 const char *About::website = "https://github.com/revvv/gdash-export-CrLi";
